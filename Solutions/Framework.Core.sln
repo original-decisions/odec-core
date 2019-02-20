@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.Framework", "..\Framework\odec.Framework\odec.Framework.csproj", "{CB9F9741-FF93-4AA3-90F9-EB5DABD0FF5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "odec.Framework.CP.Tests", "..\Tests\Framework\odec.Framework.CP.Tests\odec.Framework.CP.Tests.csproj", "{CB641209-B39D-4D07-BBD5-14C9653983DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB9F9741-FF93-4AA3-90F9-EB5DABD0FF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9F9741-FF93-4AA3-90F9-EB5DABD0FF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9F9741-FF93-4AA3-90F9-EB5DABD0FF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9F9741-FF93-4AA3-90F9-EB5DABD0FF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB641209-B39D-4D07-BBD5-14C9653983DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB641209-B39D-4D07-BBD5-14C9653983DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB641209-B39D-4D07-BBD5-14C9653983DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB641209-B39D-4D07-BBD5-14C9653983DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680DB3C7-CCF0-4381-8287-EE5A59A1CBDE}
+	EndGlobalSection
+EndGlobal

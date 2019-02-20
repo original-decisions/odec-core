@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <TargetFrameworks>netcoreapp1.0;netcoreapp2.0;net452</TargetFrameworks>
+    <AssemblyName>odec.Framework.CP.Web</AssemblyName>
+    <PackageId>odec.Framework.CP.Web</PackageId>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0'">$(PackageTargetFallback);dotnet5.6</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+  <ItemGroup >
+    <PackageReference Include="odec.Framework" Version="1.1.14" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp2.0' ">
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.0' ">
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="1.1.2" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

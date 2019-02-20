@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <TargetFrameworks>netcoreapp1.0;netcoreapp2.0;net452</TargetFrameworks>
+    <AssemblyName>odec.CP.Validation.Framework</AssemblyName>
+    <PackageId>odec.CP.Validation.Framework</PackageId>
+    <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netcoreapp1.0'">$(PackageTargetFallback);dotnet5.6</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="odec.Framework" Version="1.1.10"></PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net452' ">
+    <PackageReference Include="Spring.Core" Version="2.0.1" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
