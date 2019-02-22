@@ -22,31 +22,31 @@ steps:
 - task: PowerShell@2
   displayName: 'dotnet restore'
   inputs:
-    targetType: ./
+    targetType: filePath
     filePath: 'ci-cd/Powershell/restore.ps1'
-    workingDirectory: SystemExchange
+    workingDirectory: src
 
 - task: PowerShell@2
   displayName: 'dotnet build'
   inputs:
-    targetType: ./
+    targetType: filePath
     filePath: 'ci-cd/Powershell/build.ps1'
-    workingDirectory: SystemExchange
+    workingDirectory: src
 
 - powershell: |
    # You can write your powershell scripts inline here. 
    # You can also pass predefined and custom variables to this scripts using arguments
    
    ForEach ($path in (Get-Childitem **/**.csproj -Recurse)) {cd $path.Directory; dotnet test}
-  workingDirectory: SystemExchange
+  workingDirectory: tests
   displayName: 'run tests'
 
 - task: PowerShell@2
   displayName: pack
   inputs:
-    targetType: ./
+    targetType: filePath
     filePath: 'ci-cd/Powershell/pack.ps1'
-    workingDirectory: SystemExchange/src
+    workingDirectory: src
 
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
@@ -63,6 +63,6 @@ steps:
   displayName: 'Add Tag(s) SysExchange Succeeded to build'
   inputs:
     tags: |
-     SysExchange
+     Core
      Succeeded
 
