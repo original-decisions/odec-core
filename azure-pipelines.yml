@@ -1,5 +1,9 @@
+trigger:
+- master
+
 pool:
-  vmImage: Hosted VS2017
+  vmImage: 'Ubuntu-16.04'
+  
 steps:
 - powershell: |
    Get-ChildItem Env:
