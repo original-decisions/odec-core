@@ -1,0 +1,604 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ValidateLengthByRegex
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ValidateLengthByRegex
+   ">
+    <meta name="generator" content="docfx 2.40.12.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Attributes.html" title="odec.Framework.Attributes" class="">odec.Framework.Attributes</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Attributes.CodeInfo.html" title="CodeInfo" class="">CodeInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Attributes.TestCaseSourceEx.html" title="TestCaseSourceEx" class="">TestCaseSourceEx</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Attributes.UniqueCodeAttribute.html" title="UniqueCodeAttribute" class="">UniqueCodeAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.CP.Web.Infrastructure.Helpers.html" title="odec.Framework.CP.Web.Infrastructure.Helpers" class="">odec.Framework.CP.Web.Infrastructure.Helpers</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.TokenCredentials.html" title="TokenCredentials" class="">TokenCredentials</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.WebClientHelper.html" title="WebClientHelper" class="">WebClientHelper</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.html" title="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations" class="">odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.AuthenticationHeaders.html" title="AuthenticationHeaders" class="">AuthenticationHeaders</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.html" title="ClientAssertionType" class="">ClientAssertionType</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ContentType.html" title="ContentType" class="">ContentType</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.HttpMethod.html" title="HttpMethod" class="">HttpMethod</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Extensions.html" title="odec.Framework.Extensions" class="">odec.Framework.Extensions</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Extensions.DictionaryExtensions.html" title="DictionaryExtensions" class="">DictionaryExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.EnumExtensions.html" title="EnumExtensions" class="">EnumExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.LinqExtensions.html" title="LinqExtensions" class="">LinqExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.ObjectModelExtensions.html" title="ObjectModelExtensions" class="">ObjectModelExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.StringExtensions.html" title="StringExtensions" class="">StringExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Extensions.Configuration.html" title="odec.Framework.Extensions.Configuration" class="">odec.Framework.Extensions.Configuration</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html" title="JsonStringConfiguraitonExtensions" class="">JsonStringConfiguraitonExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.JsonStringProvider.html" title="JsonStringProvider" class="">JsonStringProvider</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.JsonStringSource.html" title="JsonStringSource" class="">JsonStringSource</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Extensions.Configuration.Xml.html" title="odec.Framework.Extensions.Configuration.Xml" class="">odec.Framework.Extensions.Configuration.Xml</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.Xml.XmlStringConfigurationExtensions.html" title="XmlStringConfigurationExtensions" class="">XmlStringConfigurationExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.Xml.XmlStringProvider.html" title="XmlStringProvider" class="">XmlStringProvider</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Extensions.Configuration.Xml.XmlStringSource.html" title="XmlStringSource" class="">XmlStringSource</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Generic.html" title="odec.Framework.Generic" class="">odec.Framework.Generic</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Generic.CommentTemplate-3.html" title="CommentTemplate&lt;T, TEntityId, TEntity&gt;" class="">CommentTemplate&lt;T, TEntityId, TEntity&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.FilterBase.html" title="FilterBase" class="">FilterBase</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.Glossary-1.html" title="Glossary&lt;T&gt;" class="">Glossary&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.Image-3.html" title="Image&lt;TKey, TRelationId, TRelation&gt;" class="">Image&lt;TKey, TRelationId, TRelation&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Generic.Utility.html" title="odec.Framework.Generic.Utility" class="">odec.Framework.Generic.Utility</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Generic.Utility.Interval-1.html" title="Interval&lt;TKey&gt;" class="">Interval&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.Utility.StringFilter.html" title="StringFilter" class="">StringFilter</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Generic.WithUnifiedId.html" title="odec.Framework.Generic.WithUnifiedId" class="">odec.Framework.Generic.WithUnifiedId</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.BannerGeneric-2.html" title="BannerGeneric&lt;TKey, TNavigation&gt;" class="">BannerGeneric&lt;TKey, TNavigation&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.CityDeliveryPaymentRelationGeneric-4.html" title="CityDeliveryPaymentRelationGeneric&lt;TKey, TCity, TDelivery, TPayment&gt;" class="">CityDeliveryPaymentRelationGeneric&lt;TKey, TCity, TDelivery, TPayment&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.CommentTemplate-3.html" title="CommentTemplate&lt;TKey, TEntity, TUser&gt;" class="">CommentTemplate&lt;TKey, TEntity, TUser&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.ContentBasedImage-1.html" title="ContentBasedImage&lt;TKey&gt;" class="">ContentBasedImage&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.DeliveryMethodGeneric-2.html" title="DeliveryMethodGeneric&lt;TKey, TOrder&gt;" class="">DeliveryMethodGeneric&lt;TKey, TOrder&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.GoodReviewGeneric-1.html" title="GoodReviewGeneric&lt;TKey&gt;" class="">GoodReviewGeneric&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.Image-2.html" title="Image&lt;TKey, TRelation&gt;" class="">Image&lt;TKey, TRelation&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.Image-1.html" title="Image&lt;TKey&gt;" class="">Image&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.PathBasedImage-1.html" title="PathBasedImage&lt;TKey&gt;" class="">PathBasedImage&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.RouteSubscriberGeneric-3.html" title="RouteSubscriberGeneric&lt;TKey, TSubscriber, TRoute&gt;" class="">RouteSubscriberGeneric&lt;TKey, TSubscriber, TRoute&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.RouteValueGeneric-1.html" title="RouteValueGeneric&lt;TKey&gt;" class="">RouteValueGeneric&lt;TKey&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.ServiceGeneric-3.html" title="ServiceGeneric&lt;TKey, TServiceType, TServiceReview&gt;" class="">ServiceGeneric&lt;TKey, TServiceType, TServiceReview&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.ServiceGoodGeneric-3.html" title="ServiceGoodGeneric&lt;TKey, TGood, TService&gt;" class="">ServiceGoodGeneric&lt;TKey, TGood, TService&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Generic.WithUnifiedId.ServiceTypeGeneric-1.html" title="ServiceTypeGeneric&lt;TKey&gt;" class="">ServiceTypeGeneric&lt;TKey&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.html" title="odec.Framework.Infrastructure" class="">odec.Framework.Infrastructure</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ConfigurationFileTypes.html" title="ConfigurationFileTypes" class="">ConfigurationFileTypes</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ConnectionManager.html" title="ConnectionManager" class="">ConnectionManager</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.SearchUtils.html" title="SearchUtils" class="">SearchUtils</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.Autofac.html" title="odec.Framework.Infrastructure.Autofac" class="">odec.Framework.Infrastructure.Autofac</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Autofac.IoCHelper.html" title="IoCHelper" class="">IoCHelper</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Autofac.ModuleRegistrant.html" title="ModuleRegistrant" class="">ModuleRegistrant</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Autofac.RegistrantOptions.html" title="RegistrantOptions" class="">RegistrantOptions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.Crypto.html" title="odec.Framework.Infrastructure.Crypto" class="">odec.Framework.Infrastructure.Crypto</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Crypto.EncryptionHelper.html" title="EncryptionHelper" class="">EncryptionHelper</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.Enumerations.html" title="odec.Framework.Infrastructure.Enumerations" class="">odec.Framework.Infrastructure.Enumerations</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Enumerations.StringCompareOperation.html" title="StringCompareOperation" class="">StringCompareOperation</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.ORM.EF.html" title="odec.Framework.Infrastructure.ORM.EF" class="">odec.Framework.Infrastructure.ORM.EF</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ORM.EF.ConnectionOptions.html" title="ConnectionOptions" class="">ConnectionOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ORM.EF.ConnectionType.html" title="ConnectionType" class="">ConnectionType</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html" title="EFCfgHelper" class="">EFCfgHelper</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.ORM.EF.EFOptions.html" title="EFOptions" class="">EFOptions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Infrastructure.Tests.html" title="odec.Framework.Infrastructure.Tests" class="">odec.Framework.Infrastructure.Tests</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Tests.RepositoryTester-2.html" title="RepositoryTester&lt;TRepository, TContext&gt;" class="">RepositoryTester&lt;TRepository, TContext&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.Infrastructure.Tests.Tester-1.html" title="Tester&lt;TContext&gt;" class="">Tester&lt;TContext&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.Logging.html" title="odec.Framework.Logging" class="">odec.Framework.Logging</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.Logging.LogEventManager.html" title="LogEventManager" class="">LogEventManager</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Framework.ServiceClient.html" title="odec.Framework.ServiceClient" class="">odec.Framework.ServiceClient</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Framework.ServiceClient.ServiceClient-1.html" title="ServiceClient&lt;T&gt;" class="">ServiceClient&lt;T&gt;</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Framework.ServiceClient.ServiceLock-1.html" title="ServiceLock&lt;T&gt;" class="">ServiceLock&lt;T&gt;</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Validation.Framework.html" title="odec.Validation.Framework" class="">odec.Validation.Framework</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Validation.Framework.ValidationController.html" title="ValidationController" class="">ValidationController</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.ValidationErrorInfo.html" title="ValidationErrorInfo" class="">ValidationErrorInfo</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.ValidationException.html" title="ValidationException" class="">ValidationException</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Validation.Framework.Attributes.html" title="odec.Validation.Framework.Attributes" class="">odec.Validation.Framework.Attributes</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Validation.Framework.Attributes.ValidationRuleAttribute.html" title="ValidationRuleAttribute" class="">ValidationRuleAttribute</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Validation.Framework.Interop.html" title="odec.Validation.Framework.Interop" class="">odec.Validation.Framework.Interop</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Validation.Framework.Interop.IValidationEntity.html" title="IValidationEntity" class="">IValidationEntity</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="odec.Validation.Framework.Rules.html" title="odec.Validation.Framework.Rules" class="">odec.Validation.Framework.Rules</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.BaseValidationRule.html" title="BaseValidationRule" class="">BaseValidationRule</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.OperatorCompare.html" title="OperatorCompare" class="">OperatorCompare</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.RuleSeverities.html" title="RuleSeverities" class="">RuleSeverities</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.ValidateLength.html" title="ValidateLength" class="">ValidateLength</a>
+                          </li>
+                          <li class="active">
+                            <a href="odec.Validation.Framework.Rules.ValidateLengthByRegex.html" title="ValidateLengthByRegex" class="active">ValidateLengthByRegex</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.ValidateRequired.html" title="ValidateRequired" class="">ValidateRequired</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.ValidateValue.html" title="ValidateValue" class="">ValidateValue</a>
+                          </li>
+                          <li class="">
+                            <a href="odec.Validation.Framework.Rules.ValidateValueByRegex.html" title="ValidateValueByRegex" class="">ValidateValueByRegex</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex">
+  
+  
+  <h1 id="odec_Validation_Framework_Rules_ValidateLengthByRegex" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex" class="text-break">Class ValidateLengthByRegex
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="odec.Validation.Framework.Rules.BaseValidationRule.html">BaseValidationRule</a></div>
+    <div class="level2"><span class="xref">ValidateLengthByRegex</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="odec.Validation.Framework.Rules.BaseValidationRule.html#odec_Validation_Framework_Rules_BaseValidationRule_PropertyName">BaseValidationRule.PropertyName</a>
+    </div>
+    <div>
+      <a class="xref" href="odec.Validation.Framework.Rules.BaseValidationRule.html#odec_Validation_Framework_Rules_BaseValidationRule_ErrorMessage">BaseValidationRule.ErrorMessage</a>
+    </div>
+    <div>
+      <a class="xref" href="odec.Validation.Framework.Rules.BaseValidationRule.html#odec_Validation_Framework_Rules_BaseValidationRule_Severity">BaseValidationRule.Severity</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="odec.Validation.Framework.Rules.html">odec.Validation.Framework.Rules</a></h6>
+  <h6><strong>Assembly</strong>: odec.CP.Validation.Framework.dll</h6>
+  <h5 id="odec_Validation_Framework_Rules_ValidateLengthByRegex_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ValidateLengthByRegex : BaseValidationRule</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/original-decisions/odec-core/new/master/apiSpec/new?filename=odec_Validation_Framework_Rules_ValidateLengthByRegex__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20odec.Validation.Framework.Rules.ValidateLengthByRegex.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/original-decisions/odec-core/blob/master/src/Framework/ValidationUtils/Validation.Framework/Rules/ValidateLengthByRegex.cs/#L13">View Source</a>
+  </span>
+  <a id="odec_Validation_Framework_Rules_ValidateLengthByRegex__ctor_" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex.#ctor*"></a>
+  <h4 id="odec_Validation_Framework_Rules_ValidateLengthByRegex__ctor_System_String_System_String_System_String_" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex.#ctor(System.String,System.String,System.String)">ValidateLengthByRegex(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValidateLengthByRegex(string propertyName, string pattern, string errorMessage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">propertyName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">errorMessage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/original-decisions/odec-core/new/master/apiSpec/new?filename=odec_Validation_Framework_Rules_ValidateLengthByRegex_Validate_odec_Validation_Framework_Interop_IValidationEntity_.md&amp;value=---%0Auid%3A%20odec.Validation.Framework.Rules.ValidateLengthByRegex.Validate(odec.Validation.Framework.Interop.IValidationEntity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/original-decisions/odec-core/blob/master/src/Framework/ValidationUtils/Validation.Framework/Rules/ValidateLengthByRegex.cs/#L19">View Source</a>
+  </span>
+  <a id="odec_Validation_Framework_Rules_ValidateLengthByRegex_Validate_" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex.Validate*"></a>
+  <h4 id="odec_Validation_Framework_Rules_ValidateLengthByRegex_Validate_odec_Validation_Framework_Interop_IValidationEntity_" data-uid="odec.Validation.Framework.Rules.ValidateLengthByRegex.Validate(odec.Validation.Framework.Interop.IValidationEntity)">Validate(IValidationEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Validate(IValidationEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="odec.Validation.Framework.Interop.IValidationEntity.html">IValidationEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="odec.Validation.Framework.Rules.BaseValidationRule.html#odec_Validation_Framework_Rules_BaseValidationRule_Validate_odec_Validation_Framework_Interop_IValidationEntity_">BaseValidationRule.Validate(IValidationEntity)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="odec.Framework.Extensions.ObjectModelExtensions.html#odec_Framework_Extensions_ObjectModelExtensions_GetDescription__1___0_">ObjectModelExtensions.GetDescription&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="odec.Framework.Extensions.ObjectModelExtensions.html#odec_Framework_Extensions_ObjectModelExtensions_GetCode__1___0_">ObjectModelExtensions.GetCode&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="odec.Framework.Extensions.ObjectModelExtensions.html#odec_Framework_Extensions_ObjectModelExtensions_GetCodeInfo__1___0_">ObjectModelExtensions.GetCodeInfo&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/original-decisions/odec-core/new/master/apiSpec/new?filename=odec_Validation_Framework_Rules_ValidateLengthByRegex.md&amp;value=---%0Auid%3A%20odec.Validation.Framework.Rules.ValidateLengthByRegex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/original-decisions/odec-core/blob/master/src/Framework/ValidationUtils/Validation.Framework/Rules/ValidateLengthByRegex.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
