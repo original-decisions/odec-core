@@ -1,0 +1,1184 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/admin/source/repos/odec-core/doc_gen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Z7YUgpUgLLcv11nVdg2+kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Attributes.CodeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Attributes.CodeInfo.html",
+          "hash": "jUnM6th+s+rqMlImH3Kt2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Attributes.TestCaseSourceEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Attributes.TestCaseSourceEx.html",
+          "hash": "95YRuHGMwCi29whGCfzflA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Attributes.UniqueCodeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Attributes.UniqueCodeAttribute.html",
+          "hash": "9/rSzaqBblr9oGovvuSzxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Attributes.html",
+          "hash": "XHp9K9av6SBDqEmIKzkFlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.AuthenticationHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.AuthenticationHeaders.html",
+          "hash": "ZZr69YIAD8UAsoZ527pLaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.html",
+          "hash": "uYs3lIXfZTxQZ5yzldlArQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ContentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ContentType.html",
+          "hash": "mvOTAFOx4iHaj7FMz33C2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.HttpMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.HttpMethod.html",
+          "hash": "g9IhYIWXhKBps5B8F8R+jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.html",
+          "hash": "Z1A/t0UMgKMSOdEtNOau3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.TokenCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.TokenCredentials.html",
+          "hash": "QCI76wLDeu4Ojry1abfFVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.WebClientHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.WebClientHelper.html",
+          "hash": "lfCfqZ3IJJKkwKRj4swocg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.CP.Web.Infrastructure.Helpers.html",
+          "hash": "DWznFWMDtLpvnPnO3++TAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html",
+          "hash": "S5joCNrekBrUXWZ0nBNmzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringProvider.html",
+          "hash": "0Mokrygmb7ISiUartWEXMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.JsonStringSource.html",
+          "hash": "qqQR6QtI61jTSBEVnNp1hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringConfigurationExtensions.html",
+          "hash": "GhRb46nMd/ThPFC1RKPw0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringProvider.html",
+          "hash": "E778NtG8QSnNl0TfYEpAwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.Xml.XmlStringSource.html",
+          "hash": "u+NmsXzvvlNOXl11Ag/xDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.Xml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.Xml.html",
+          "hash": "4c5mZj4hdpQPNT8MT0bEfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.Configuration.html",
+          "hash": "iFD10alwE4Um7a8zuVNm9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.DictionaryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.DictionaryExtensions.html",
+          "hash": "lgOq26sWdTnng8LePi1frw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.EnumExtensions.html",
+          "hash": "0Mv7zL/zjwnoOrJypSrK9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.LinqExtensions.html",
+          "hash": "ReJUti8zRH5aKQbt0tK/AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.ObjectModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.ObjectModelExtensions.html",
+          "hash": "nO/G49pnSvVNGStokHeSGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.StringExtensions.html",
+          "hash": "QH7wFnjWuSgMkXGniR4ZnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Extensions.html",
+          "hash": "A0InZHDlK27qtvVAMurzQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.CommentTemplate-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.CommentTemplate-3.html",
+          "hash": "CBCzryFAQfUskcfcEYVO1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.FilterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.FilterBase.html",
+          "hash": "33uguIPXFwmZn4x4LxtuIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.Glossary-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.Glossary-1.html",
+          "hash": "WbyFb9jrvX0+Fc1GyQ6WZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.Image-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.Image-3.html",
+          "hash": "lsLYpdZ19ycJSWEtXueLVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.Utility.Interval-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.Utility.Interval-1.html",
+          "hash": "htAnfwT2SA2Ivxi0YJsGEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.Utility.StringFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.Utility.StringFilter.html",
+          "hash": "+kfsdbRxAvgkUrdaLUeP5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.Utility.html",
+          "hash": "rv6GpzW8Q3qc6oz1R4pN2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.BannerGeneric-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.BannerGeneric-2.html",
+          "hash": "/rsAyGjF/TKc+CU+i/QoJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.CityDeliveryPaymentRelationGeneric-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.CityDeliveryPaymentRelationGeneric-4.html",
+          "hash": "c9NQA7HUVN67JSlGjicaIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.CommentTemplate-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.CommentTemplate-3.html",
+          "hash": "aJzeVXet3qD9dlQxKcZ6Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.ContentBasedImage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.ContentBasedImage-1.html",
+          "hash": "Kt1y0JDZWmSEZT3RRR8nTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.DeliveryMethodGeneric-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.DeliveryMethodGeneric-2.html",
+          "hash": "YpINtxh3sGGn1SoxIh4KpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.GoodReviewGeneric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.GoodReviewGeneric-1.html",
+          "hash": "nczojcMUt23TenyMQaV9Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.Image-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.Image-1.html",
+          "hash": "Mq5IwayVLNs1Sra+JZ572Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.Image-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.Image-2.html",
+          "hash": "O0ZnfBn2ClsjrhEcCbgC7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.PathBasedImage-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.PathBasedImage-1.html",
+          "hash": "SdhJgaIHbjttYziRcsyMiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.RouteSubscriberGeneric-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.RouteSubscriberGeneric-3.html",
+          "hash": "vp/+f1uQzxDAtfYfW37tDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.RouteValueGeneric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.RouteValueGeneric-1.html",
+          "hash": "4vF0AUOnz9Ndly8CMFcBZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceGeneric-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceGeneric-3.html",
+          "hash": "w0OjEh37Hho75vjKn3geEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceGoodGeneric-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceGoodGeneric-3.html",
+          "hash": "oaf+mbxwm/k1lrGe6A6hNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceTypeGeneric-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.ServiceTypeGeneric-1.html",
+          "hash": "AAuuwQ9DupIj4ftJeHC+sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.WithUnifiedId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.WithUnifiedId.html",
+          "hash": "LUYFSPfh8uAiYwfqrTiaOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Generic.html",
+          "hash": "pw7yDW9PzPDaSdFp42oThg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Autofac.IoCHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Autofac.IoCHelper.html",
+          "hash": "jNqToc+YgKqQcKcyXIpVkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Autofac.ModuleRegistrant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Autofac.ModuleRegistrant.html",
+          "hash": "+DDFk6x/0AU4CIzcjFyiQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Autofac.RegistrantOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Autofac.RegistrantOptions.html",
+          "hash": "rVe80IOKSFoX8t/hYZyJfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Autofac.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Autofac.html",
+          "hash": "p/IF1X/KAcrWC0B5xb1b2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ConfigurationFileTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ConfigurationFileTypes.html",
+          "hash": "A51kr9Q1zNCsXLwqPqHaMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ConnectionManager.html",
+          "hash": "Yuoz5T6NYNaLcP9ir7SwBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Crypto.EncryptionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Crypto.EncryptionHelper.html",
+          "hash": "nITQgDyXM660N7hgLEwp9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Crypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Crypto.html",
+          "hash": "f3PZxAQ7B8PXMOM6mpAGxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Enumerations.StringCompareOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Enumerations.StringCompareOperation.html",
+          "hash": "D64WB0rdUFzGzfhCC+DWcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Enumerations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Enumerations.html",
+          "hash": "v401NVLcSFyVYqROUpNAtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ORM.EF.ConnectionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ORM.EF.ConnectionOptions.html",
+          "hash": "hnnNis1w0KMQ39gv5+QLQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ORM.EF.ConnectionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ORM.EF.ConnectionType.html",
+          "hash": "5U7aSsNdOjOOoWlJYgLbvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html",
+          "hash": "CsI3xdrHj3t13WrmdLtzIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ORM.EF.EFOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ORM.EF.EFOptions.html",
+          "hash": "rLuAYCMsc/49dU4cTiyiKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.ORM.EF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.ORM.EF.html",
+          "hash": "Vj/EpsTq4hTO9Kzi20YrGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.SearchUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.SearchUtils.html",
+          "hash": "7EyFJWGxX2pWYIrXbQvinQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Tests.RepositoryTester-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Tests.RepositoryTester-2.html",
+          "hash": "LGDkwXBiuWjOouEhCz4MTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Tests.Tester-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Tests.Tester-1.html",
+          "hash": "cU4U6YgS1Vk8iZrRTDQ8Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.Tests.html",
+          "hash": "rZlN8/QyC7ojWzmU1AxVFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Infrastructure.html",
+          "hash": "zF2e1yGuWO8bwsy322yJmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Logging.LogEventManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Logging.LogEventManager.html",
+          "hash": "jqjv+Rlxm/9f3PKHDlw8gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.Logging.html",
+          "hash": "L+4KEve8oeHRihhchjWnGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.ServiceClient.ServiceClient-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.ServiceClient.ServiceClient-1.html",
+          "hash": "K+3seJhTJjaULNwGn+vhTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.ServiceClient.ServiceLock-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.ServiceClient.ServiceLock-1.html",
+          "hash": "s7HDdbgGaDtB1vLIOv94vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Framework.ServiceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Framework.ServiceClient.html",
+          "hash": "iHF/MaQIrEx1e0Upzxj6Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Attributes.ValidationRuleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Attributes.ValidationRuleAttribute.html",
+          "hash": "Oz34Eo3xGb6qkubIDjqX8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Attributes.html",
+          "hash": "D6rO8pUrcTBT9uakRW+sAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Interop.IValidationEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Interop.IValidationEntity.html",
+          "hash": "OXo5pbbNBNoOQF+WXs5btg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Interop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Interop.html",
+          "hash": "Auq36UWL690rgyULY2B0mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.BaseValidationRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.BaseValidationRule.html",
+          "hash": "ybCdAvR3JLTm/5N0d7YVmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.OperatorCompare.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.OperatorCompare.html",
+          "hash": "9njQTACmeno5oKVvNTIW7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.RuleSeverities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.RuleSeverities.html",
+          "hash": "yRmMgWFMDrWaux2PznxjHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.ValidateLength.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.ValidateLength.html",
+          "hash": "R0jQ6ytZD4Et8hCBO+2vHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.ValidateLengthByRegex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.ValidateLengthByRegex.html",
+          "hash": "K8pj3YIs+AGbCWQkALLoNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.ValidateRequired.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.ValidateRequired.html",
+          "hash": "e7lOr1JahBJiyXea9nhfjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.ValidateValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.ValidateValue.html",
+          "hash": "IH6xpankul37s9eFPxVMRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.ValidateValueByRegex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.ValidateValueByRegex.html",
+          "hash": "vufJitnVE8WXlP3JBIbwig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.Rules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.Rules.html",
+          "hash": "An2qm8hhZISvs4MW/C0U/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.ValidationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.ValidationController.html",
+          "hash": "W8cmNTmCoix51RFN62ZPBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.ValidationErrorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.ValidationErrorInfo.html",
+          "hash": "M9w88lePBca09FaGNYmQ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.ValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.ValidationException.html",
+          "hash": "dxQs/OGM5PUp1h3zUsuuKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/odec.Validation.Framework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/odec.Validation.Framework.html",
+          "hash": "dpASCiXIbLSzkv1IR9yEvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "G46VXg/9L7y/V8kvhc2ynw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "g87J4Z/6hMDsc0PoZwJlPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 91,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
