@@ -25,6 +25,7 @@ steps:
    git clone https://github.com/original-decisions/ci-cd -v --progress;
    git config --global user.email "pirmosk@gmail.com"
    git config --global user.name "ci bot"
+   git config --global user.password "$(pwd)"
    dir
   errorActionPreference: silentlyContinue
   workingDirectory: '$(Build.Repository.LocalPath)'
@@ -61,9 +62,12 @@ steps:
   displayName: 'prepare docs'
 - powershell: |
    git subtree add --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
+   Write-Host "add subtree passed";
    git add docs/* -f;
    git commit -m "Docs CI build ";
+   Write-Host "add + commite passed";
    git subtree push --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
+   Write-Host "push subtree passed";
   workingDirectory: ''
   displayName: 'prepare docs'
 - task: PowerShell@2
