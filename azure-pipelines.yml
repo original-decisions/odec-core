@@ -10,7 +10,12 @@ steps:
    
    dotnet --info
   displayName: 'Env + dotnet info'
-
+- task: gep13.chocolatey-azuredevops.chocolatey-azuredevops.ChocolateyCommand@0
+  displayName: 'Chocolatey install'
+  inputs:
+    command: install
+    installPackageId: docfx
+    
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
    
@@ -40,7 +45,13 @@ steps:
    ForEach ($path in (Get-Childitem **/**.csproj -Recurse)) {cd $path.Directory; dotnet test}
   workingDirectory: tests
   displayName: 'run tests'
-
+- powershell: |
+   # You can write your powershell scripts inline here. 
+   # You can also pass predefined and custom variables to this scripts using arguments
+   
+   docfx doc_gen/docfx.json
+  workingDirectory: tests
+  displayName: 'run tests'
 - task: PowerShell@2
   displayName: pack
   inputs:
@@ -52,6 +63,7 @@ steps:
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
   inputs:
     Contents: |
+     docs/**
      **/*.nupkg
      **/*test*.xml
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
