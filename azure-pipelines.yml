@@ -24,6 +24,7 @@ steps:
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
    git config --global user.email "pirmosk@gmail.com"
+   git config --global user.name "ci bot"
    dir
   errorActionPreference: silentlyContinue
   workingDirectory: '$(Build.Repository.LocalPath)'
