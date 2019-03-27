@@ -50,7 +50,7 @@ steps:
    # You can also pass predefined and custom variables to this scripts using arguments
    
    docfx doc_gen/docfx.json
-  workingDirectory: tests
+  workingDirectory: ''
   displayName: 'run tests'
 - task: PowerShell@2
   displayName: pack
