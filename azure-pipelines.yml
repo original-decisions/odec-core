@@ -23,7 +23,7 @@ steps:
     
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
-   
+   git config --global user.email "pirmosk@gmail.com"
    dir
   errorActionPreference: silentlyContinue
   workingDirectory: '$(Build.Repository.LocalPath)'
