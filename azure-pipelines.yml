@@ -23,10 +23,11 @@ steps:
     
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
-   git config --global user.email "pirmosk@gmail.com"
-   git config --global user.name "ci bot"
-   git config --global user.password "$(pwd)"
-   dir
+   git config --global user.email "pirmosk@gmail.com";
+   git config --global user.name "ci bot";
+   Write-Host "$(pwd)";
+   git config --global user.password "$(pwd)";
+   dir;
   errorActionPreference: silentlyContinue
   workingDirectory: '$(Build.Repository.LocalPath)'
   displayName: 'clone ci scripts'
