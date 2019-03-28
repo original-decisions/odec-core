@@ -65,6 +65,7 @@ steps:
    dir;
   workingDirectory: ''
   displayName: 'prepare docs'
+  enabled: true
 - powershell: |
    git add docs/* -f;
    git commit -m "CI Build $env:BUILD_BUILDNUMBER";
@@ -73,6 +74,7 @@ steps:
    Write-Host "push subtree passed";
   workingDirectory: ''
   displayName: 'push the docs!'
+  
 - task: PowerShell@2
   displayName: pack
   inputs:
