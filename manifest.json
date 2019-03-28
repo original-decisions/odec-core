@@ -1113,19 +1113,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "nBB5tD+Ntc5oV2eCfzlehQ=="
+          "hash": "88Vo8XdBgcaDFpZW2RbbPg=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "invalid-note-section"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "g87J4Z/6hMDsc0PoZwJlPw=="
+          "hash": "yWJM4R3qFfjtVzLr9IXZpQ=="
         }
       },
       "is_incremental": false,
@@ -1143,16 +1146,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 91,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 91,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
