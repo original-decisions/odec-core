@@ -23,10 +23,6 @@ steps:
     
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
-
-   Write-Host "$(pwd)";
-   Write-Host "$($env:git_access_token)";
-   Write-Host "CI Build $env:BUILD_BUILDNUMBER";
    #git config --global user.password "$(pwd)";
    dir;
   errorActionPreference: silentlyContinue
@@ -64,11 +60,12 @@ steps:
    git subtree add --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "add subtree passed";
    git subtree pull --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
-   Write-Host "add subtree passed";
+   Write-Host "pull subtree passed";
    docfx doc_gen/docfx.json;
    dir;
   workingDirectory: ''
   displayName: 'prepare docs'
+  enabled: true
 - powershell: |
    git add docs/* -f;
    git commit -m "CI Build $env:BUILD_BUILDNUMBER";
@@ -77,6 +74,7 @@ steps:
    Write-Host "push subtree passed";
   workingDirectory: ''
   displayName: 'push the docs!'
+  
 - task: PowerShell@2
   displayName: pack
   inputs:
