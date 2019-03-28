@@ -26,7 +26,7 @@ steps:
 
    Write-Host "$(pwd)";
    Write-Host "$($env:git_access_token)";
-   Write-Host "CI Build $($Build.BuildNumber)";
+   Write-Host "CI Build $env:BUILD_BUILDNUMBER";
    #git config --global user.password "$(pwd)";
    dir;
   errorActionPreference: silentlyContinue
@@ -69,8 +69,9 @@ steps:
    git config --global user.name "CI bot"
    git subtree add --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "add subtree passed";
+   git subtree pull --prefix=docs https://github.com/original-decisions/odec-core.git gh-pages;
    git add docs/* -f;
-   git commit -m "CI Build $($Build.BuildNumber)";
+   git commit -m "CI Build $env:BUILD_BUILDNUMBER";
    Write-Host "add + commite passed";
    git subtree push --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "push subtree passed";
