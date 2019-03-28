@@ -25,7 +25,8 @@ steps:
    git clone https://github.com/original-decisions/ci-cd -v --progress;
    #git config --global user.email "pirmosk@gmail.com";
    #git config --global user.name "ci bot";
-   #Write-Host "$(pwd)";
+   Write-Host "$(pwd)";
+   Write-Host "$($env:git_access_token)";
    #git config --global user.password "$(pwd)";
    dir;
   errorActionPreference: silentlyContinue
