@@ -23,10 +23,10 @@ steps:
     
 - powershell: |
    git clone https://github.com/original-decisions/ci-cd -v --progress;
-   #git config --global user.email "pirmosk@gmail.com";
-   #git config --global user.name "ci bot";
+
    Write-Host "$(pwd)";
    Write-Host "$($env:git_access_token)";
+   Write-Host "CI Build $($Build.BuildNumber)";
    #git config --global user.password "$(pwd)";
    dir;
   errorActionPreference: silentlyContinue
@@ -66,16 +66,16 @@ steps:
    git config --global credential.helper store
    Add-Content "$HOME\.git-credentials" "https://$($env:git_access_token):x-oauth-basic@github.com`n"
    git config --global user.email "pirmosk@gmail.com"
-   git config --global user.name "Defee"
+   git config --global user.name "CI bot"
    git subtree add --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "add subtree passed";
    git add docs/* -f;
-   git commit -m "Docs CI build ";
+   git commit -m "CI Build $($Build.BuildNumber)";
    Write-Host "add + commite passed";
    git subtree push --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "push subtree passed";
   workingDirectory: ''
-  displayName: 'prepare docs'
+  displayName: 'push the docs!'
 - task: PowerShell@2
   displayName: pack
   inputs:
