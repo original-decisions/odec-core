@@ -57,12 +57,6 @@ steps:
 - powershell: |
    # You can write your powershell scripts inline here. 
    # You can also pass predefined and custom variables to this scripts using arguments
-   
-   docfx doc_gen/docfx.json;
-   dir;
-  workingDirectory: ''
-  displayName: 'prepare docs'
-- powershell: |
    git config --global credential.helper store
    Add-Content "$HOME\.git-credentials" "https://$($env:git_access_token):x-oauth-basic@github.com`n"
    git config --global user.email "pirmosk@gmail.com"
@@ -70,6 +64,12 @@ steps:
    git subtree add --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
    Write-Host "add subtree passed";
    git subtree pull --prefix docs https://github.com/original-decisions/odec-core.git gh-pages;
+   Write-Host "add subtree passed";
+   docfx doc_gen/docfx.json;
+   dir;
+  workingDirectory: ''
+  displayName: 'prepare docs'
+- powershell: |
    git add docs/* -f;
    git commit -m "CI Build $env:BUILD_BUILDNUMBER";
    Write-Host "add + commite passed";
