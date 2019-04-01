@@ -1,7 +1,7 @@
 ﻿namespace odec.Validation.Framework.Interop
 {
     /// <summary>
-    /// Интерфейс валидируемой сущности
+    /// Interface for the validatable entity. 
     /// </summary>
     public interface IValidationEntity
     {

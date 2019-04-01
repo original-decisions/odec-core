@@ -3,28 +3,32 @@ using odec.Validation.Framework.Rules;
 
 namespace odec.Validation.Framework.Attributes
 {
+    /// <summary>
+    /// TODO: Documentation and example for it.
+    /// </summary>
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public sealed class ValidationRuleAttribute : Attribute
     {
-        #region Свойства ...
+        #region Props ...
         /// <summary>
-        /// Правило
+        /// Rule Specified in the attribute.
         /// </summary>
         public BaseValidationRule Rule { get; set; }
         #endregion
 
-        #region Конструкторы ...
+        #region Constructors ...
         /// <summary>
-        /// Конструкторы
+        /// Constructing the attribute based on the rule type, severity type and additional arguments.
         /// </summary>
-        /// <param name="ruleType">Тип правила</param>
-        /// <param name="severity">Важность правила</param>
-        /// <param name="args">Список аргументов</param>
+        /// <param name="ruleType">Rule type. Should be derivered from <see cref="BaseValidationRule"/></param>
+        /// <param name="severity">Severity of the rule. More info: <see cref="RuleSeverities"/></param>
+        /// <param name="args">Additional arguments list</param>
+        /// <exception cref="ArgumentNullException"> Throws argument null exception if the rule type is null.</exception>
         public ValidationRuleAttribute(Type ruleType, RuleSeverities severity, params object[] args)
         {
             //Contract.Requires<ArgumentNullException>(ruleType != null);
             if (ruleType == null)
-                throw new ArgumentNullException("ruleType");
+                throw new ArgumentNullException($"{nameof(ruleType)} shouldn't be null.");
 
             Rule = Activator.CreateInstance(ruleType, args) as BaseValidationRule;
             if (Rule != null)

@@ -8,14 +8,17 @@ using odec.Validation.Framework.Rules;
 
 namespace odec.Validation.Framework
 {
+    /// <summary>
+    /// Validation controller which contains the methods allowing to validate different entities inherited the IValidationEntity interface.
+    /// </summary>
     public static class ValidationController
     {
-        #region Методы ...
+        #region Methods ...
         /// <summary>
-        /// Проверяет указанную сущность
+        /// Validates the provided entity 
         /// </summary>
-        /// <param name="entity">Валидируемая сущность</param>
-        /// <returns>Результат проверки</returns>
+        /// <param name="entity">Entity to validate.</param>
+        /// <returns>Validation result.</returns>
         public static IEnumerable<ValidationErrorInfo> Validate(IValidationEntity entity)
         {
             //Contract.Requires<ArgumentNullException>(entity != null);
@@ -28,10 +31,10 @@ namespace odec.Validation.Framework
         }
 
         /// <summary>
-        /// Получает список правил валидируемой сущности
+        /// Gets the rules set for the validated entity.
         /// </summary>
-        /// <param name="entity">Валидируемая сущность</param>
-        /// <returns>Список правил</returns>
+        /// <param name="entity">Validated entity</param>
+        /// <returns>Rule Set <see cref="{IEnumerable<BaseValidationRule>}"/></returns>
         private static IEnumerable<BaseValidationRule> GetValidationRules(IValidationEntity entity)
         {
             //Contract.Requires<ArgumentNullException>(entity != null);
@@ -42,20 +45,20 @@ namespace odec.Validation.Framework
         }
 
         /// <summary>
-        /// Проверяет сущность по списку указанных правил
+        /// Validates the entity by the rules set.  
         /// </summary>
-        /// <param name="entity">Сущность</param>
-        /// <param name="rules">Список правил</param>
-        /// <returns>Список ошибок</returns>
+        /// <param name="entity">Validated entity</param>
+        /// <param name="rules">Validation set</param>
+        /// <returns>Errors which are the validation result. The result is  <see cref="{IEnumerable<ValidationErrorInfo>}"/></returns>
         public static IEnumerable<ValidationErrorInfo> Validate(this IValidationEntity entity, IEnumerable<BaseValidationRule> rules)
         {
             return rules.Where(it => !it.Validate(entity)).Select(it => new ValidationErrorInfo(it)).ToList();
         }
 
         /// <summary>
-        /// Выбрасывает ошибку валидации, если есть ошибки
+        /// Thows a validation error if any validation violations were found.
         /// </summary>
-        /// <param name="errors">Список ошибок</param>
+        /// <param name="errors">Set of the errors</param>
         public static void ThrowOnValidationError(this IEnumerable<ValidationErrorInfo> errors)
         {
             var validationErrors = errors as IList<ValidationErrorInfo> ?? errors.ToList();

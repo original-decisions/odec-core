@@ -4,24 +4,27 @@ using odec.Validation.Framework.Interop;
 
 namespace odec.Validation.Framework.Rules
 {
+    /// <summary>
+    /// Validate that the object is not null.
+    /// </summary>
     public class ValidateRequired : BaseValidationRule
     {
-        #region Конструкторы ...
+        #region Ctors ...
         /// <summary>
-        /// Конструктор
+        /// Constructs the required validation rule by the property Name
         /// </summary>
         /// <param name="propertyName">Имя свойства</param>
         public ValidateRequired(string propertyName)
-            : base(propertyName, string.Format("Необходимо заполнить поле {0}", propertyName))
+            : base(propertyName, string.Format("The field {0} is required.", propertyName))
         {
 
         }
 
         /// <summary>
-        /// Конструктор
+        ///  Constructs the required validation rule by the property name and error message.
         /// </summary>
-        /// <param name="propertyName">Имя свойства</param>
-        /// <param name="errorMessage">Сообщение об ошибке</param>
+        /// <param name="propertyName">Validated property name</param>
+        /// <param name="errorMessage">Error message to be displaied.</param>
         public ValidateRequired(string propertyName, string errorMessage)
             : base(propertyName, errorMessage)
         {
@@ -29,12 +32,12 @@ namespace odec.Validation.Framework.Rules
         }
         #endregion
 
-        #region Методы ...
+        #region Methods ...
         /// <summary>
-        /// Проверят сущность
+        /// Validates the entity for the specified rule above.
         /// </summary>
-        /// <param name="entity">Валидируемая сущность</param>
-        /// <returns>Результат валидации, пройдена ли проверка - да или нет</returns>
+        /// <param name="entity">Validated entity. Should Implement interface <see cref="IValidationEntity"/></param>
+        /// <returns>Validation result. If yes it gives the True, false if not.</returns>
         public override bool Validate(IValidationEntity entity)
         {
             //Contract.Requires<ArgumentNullException>(entity != null);
