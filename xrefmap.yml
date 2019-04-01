@@ -3252,13 +3252,13 @@ references:
   commentId: T:odec.Validation.Framework.Attributes.ValidationRuleAttribute
   fullName: odec.Validation.Framework.Attributes.ValidationRuleAttribute
   nameWithType: ValidationRuleAttribute
-- uid: odec.Validation.Framework.Attributes.ValidationRuleAttribute.#ctor(Type,odec.Validation.Framework.Rules.RuleSeverities,System.Object[])
+- uid: odec.Validation.Framework.Attributes.ValidationRuleAttribute.#ctor(System.Type,odec.Validation.Framework.Rules.RuleSeverities,System.Object[])
   name: ValidationRuleAttribute(Type, RuleSeverities, Object[])
-  href: api/odec.Validation.Framework.Attributes.ValidationRuleAttribute.html#odec_Validation_Framework_Attributes_ValidationRuleAttribute__ctor_Type_odec_Validation_Framework_Rules_RuleSeverities_System_Object___
-  commentId: M:odec.Validation.Framework.Attributes.ValidationRuleAttribute.#ctor(Type,odec.Validation.Framework.Rules.RuleSeverities,System.Object[])
+  href: api/odec.Validation.Framework.Attributes.ValidationRuleAttribute.html#odec_Validation_Framework_Attributes_ValidationRuleAttribute__ctor_System_Type_odec_Validation_Framework_Rules_RuleSeverities_System_Object___
+  commentId: M:odec.Validation.Framework.Attributes.ValidationRuleAttribute.#ctor(System.Type,odec.Validation.Framework.Rules.RuleSeverities,System.Object[])
   name.vb: ValidationRuleAttribute(Type, RuleSeverities, Object())
-  fullName: odec.Validation.Framework.Attributes.ValidationRuleAttribute.ValidationRuleAttribute(Type, odec.Validation.Framework.Rules.RuleSeverities, System.Object[])
-  fullName.vb: odec.Validation.Framework.Attributes.ValidationRuleAttribute.ValidationRuleAttribute(Type, odec.Validation.Framework.Rules.RuleSeverities, System.Object())
+  fullName: odec.Validation.Framework.Attributes.ValidationRuleAttribute.ValidationRuleAttribute(System.Type, odec.Validation.Framework.Rules.RuleSeverities, System.Object[])
+  fullName.vb: odec.Validation.Framework.Attributes.ValidationRuleAttribute.ValidationRuleAttribute(System.Type, odec.Validation.Framework.Rules.RuleSeverities, System.Object())
   nameWithType: ValidationRuleAttribute.ValidationRuleAttribute(Type, RuleSeverities, Object[])
   nameWithType.vb: ValidationRuleAttribute.ValidationRuleAttribute(Type, RuleSeverities, Object())
 - uid: odec.Validation.Framework.Attributes.ValidationRuleAttribute.#ctor*
@@ -3596,13 +3596,13 @@ references:
   commentId: T:odec.Validation.Framework.ValidationController
   fullName: odec.Validation.Framework.ValidationController
   nameWithType: ValidationController
-- uid: odec.Validation.Framework.ValidationController.ThrowOnValidationError(IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
+- uid: odec.Validation.Framework.ValidationController.ThrowOnValidationError(System.Collections.Generic.IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
   name: ThrowOnValidationError(IEnumerable<ValidationErrorInfo>)
-  href: api/odec.Validation.Framework.ValidationController.html#odec_Validation_Framework_ValidationController_ThrowOnValidationError_IEnumerable_odec_Validation_Framework_ValidationErrorInfo__
-  commentId: M:odec.Validation.Framework.ValidationController.ThrowOnValidationError(IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
+  href: api/odec.Validation.Framework.ValidationController.html#odec_Validation_Framework_ValidationController_ThrowOnValidationError_System_Collections_Generic_IEnumerable_odec_Validation_Framework_ValidationErrorInfo__
+  commentId: M:odec.Validation.Framework.ValidationController.ThrowOnValidationError(System.Collections.Generic.IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
   name.vb: ThrowOnValidationError(IEnumerable(Of ValidationErrorInfo))
-  fullName: odec.Validation.Framework.ValidationController.ThrowOnValidationError(IEnumerable<odec.Validation.Framework.ValidationErrorInfo>)
-  fullName.vb: odec.Validation.Framework.ValidationController.ThrowOnValidationError(IEnumerable(Of odec.Validation.Framework.ValidationErrorInfo))
+  fullName: odec.Validation.Framework.ValidationController.ThrowOnValidationError(System.Collections.Generic.IEnumerable<odec.Validation.Framework.ValidationErrorInfo>)
+  fullName.vb: odec.Validation.Framework.ValidationController.ThrowOnValidationError(System.Collections.Generic.IEnumerable(Of odec.Validation.Framework.ValidationErrorInfo))
   nameWithType: ValidationController.ThrowOnValidationError(IEnumerable<ValidationErrorInfo>)
   nameWithType.vb: ValidationController.ThrowOnValidationError(IEnumerable(Of ValidationErrorInfo))
 - uid: odec.Validation.Framework.ValidationController.ThrowOnValidationError*
@@ -3618,13 +3618,13 @@ references:
   commentId: M:odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity)
   fullName: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity)
   nameWithType: ValidationController.Validate(IValidationEntity)
-- uid: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity,IEnumerable{odec.Validation.Framework.Rules.BaseValidationRule})
+- uid: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity,System.Collections.Generic.IEnumerable{odec.Validation.Framework.Rules.BaseValidationRule})
   name: Validate(IValidationEntity, IEnumerable<BaseValidationRule>)
-  href: api/odec.Validation.Framework.ValidationController.html#odec_Validation_Framework_ValidationController_Validate_odec_Validation_Framework_Interop_IValidationEntity_IEnumerable_odec_Validation_Framework_Rules_BaseValidationRule__
-  commentId: M:odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity,IEnumerable{odec.Validation.Framework.Rules.BaseValidationRule})
+  href: api/odec.Validation.Framework.ValidationController.html#odec_Validation_Framework_ValidationController_Validate_odec_Validation_Framework_Interop_IValidationEntity_System_Collections_Generic_IEnumerable_odec_Validation_Framework_Rules_BaseValidationRule__
+  commentId: M:odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity,System.Collections.Generic.IEnumerable{odec.Validation.Framework.Rules.BaseValidationRule})
   name.vb: Validate(IValidationEntity, IEnumerable(Of BaseValidationRule))
-  fullName: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity, IEnumerable<odec.Validation.Framework.Rules.BaseValidationRule>)
-  fullName.vb: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity, IEnumerable(Of odec.Validation.Framework.Rules.BaseValidationRule))
+  fullName: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity, System.Collections.Generic.IEnumerable<odec.Validation.Framework.Rules.BaseValidationRule>)
+  fullName.vb: odec.Validation.Framework.ValidationController.Validate(odec.Validation.Framework.Interop.IValidationEntity, System.Collections.Generic.IEnumerable(Of odec.Validation.Framework.Rules.BaseValidationRule))
   nameWithType: ValidationController.Validate(IValidationEntity, IEnumerable<BaseValidationRule>)
   nameWithType.vb: ValidationController.Validate(IValidationEntity, IEnumerable(Of BaseValidationRule))
 - uid: odec.Validation.Framework.ValidationController.Validate*
@@ -3704,13 +3704,13 @@ references:
   commentId: T:odec.Validation.Framework.ValidationException
   fullName: odec.Validation.Framework.ValidationException
   nameWithType: ValidationException
-- uid: odec.Validation.Framework.ValidationException.#ctor(IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
+- uid: odec.Validation.Framework.ValidationException.#ctor(System.Collections.Generic.IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
   name: ValidationException(IEnumerable<ValidationErrorInfo>)
-  href: api/odec.Validation.Framework.ValidationException.html#odec_Validation_Framework_ValidationException__ctor_IEnumerable_odec_Validation_Framework_ValidationErrorInfo__
-  commentId: M:odec.Validation.Framework.ValidationException.#ctor(IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
+  href: api/odec.Validation.Framework.ValidationException.html#odec_Validation_Framework_ValidationException__ctor_System_Collections_Generic_IEnumerable_odec_Validation_Framework_ValidationErrorInfo__
+  commentId: M:odec.Validation.Framework.ValidationException.#ctor(System.Collections.Generic.IEnumerable{odec.Validation.Framework.ValidationErrorInfo})
   name.vb: ValidationException(IEnumerable(Of ValidationErrorInfo))
-  fullName: odec.Validation.Framework.ValidationException.ValidationException(IEnumerable<odec.Validation.Framework.ValidationErrorInfo>)
-  fullName.vb: odec.Validation.Framework.ValidationException.ValidationException(IEnumerable(Of odec.Validation.Framework.ValidationErrorInfo))
+  fullName: odec.Validation.Framework.ValidationException.ValidationException(System.Collections.Generic.IEnumerable<odec.Validation.Framework.ValidationErrorInfo>)
+  fullName.vb: odec.Validation.Framework.ValidationException.ValidationException(System.Collections.Generic.IEnumerable(Of odec.Validation.Framework.ValidationErrorInfo))
   nameWithType: ValidationException.ValidationException(IEnumerable<ValidationErrorInfo>)
   nameWithType.vb: ValidationException.ValidationException(IEnumerable(Of ValidationErrorInfo))
 - uid: odec.Validation.Framework.ValidationException.#ctor*

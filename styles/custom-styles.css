@@ -1,0 +1,61 @@
+a.navbar-brand > img {
+	width: 35px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.navbar-inverse {
+    background-color: white;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #0d47a1;
+    background-color: white;
+    border-bottom: 3px solid #0d47a1;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #0d47a1;
+    background-color: white;
+    border-bottom: 3px solid #0d47a1;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text {
+    color: #0d47a1;
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #0d47a1;
+    background-color: white;
+    border-bottom: 3px solid #0d47a1;
+}
+
+.navbar-form.navbar-right > div > input {
+    background-color: rgb(243, 243, 243)
+}
+
+@media (min-width: 1250px) 
+{
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1400px) 
+{
+    .container {
+        width: 80%;
+    }
+    .sidetoc {
+        width:20%;
+    }
+
+    .article.grid-right {
+        margin-left: 27%;
+    }
+    .sidefilter {
+        width:19%
+    }
+}

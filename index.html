@@ -5,20 +5,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Original decision Core Module </title>
+    <title>Original decision Core Module | Original Decesions - Core </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Original decision Core Module ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="title" content="Original decision Core Module | Original Decesions - Core ">
+    <meta name="generator" content="docfx 2.41.0.0">
     
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
-    <meta property="docfx:navrel" content="toc">
-    <meta property="docfx:tocrel" content="toc">
+    <link rel="stylesheet" href="styles/custom-styles.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
-    
-    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
@@ -35,7 +36,7 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
+                <img id="logo" class="svg" src="images/logo.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -44,26 +45,20 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-                
-                <ul class="nav level1 navbar-nav">
-                      <li>
-                          <a href="articles/intro.html" title="Articles">Articles</a>
-                      </li>
-                      <li>
-                          <a href="api/index.html" title="Api Documentation">Api Documentation</a>
-                      </li>
-                </ul>    </div>
+            </div>
           </div>
         </nav>
-        
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
           <div class="col-md-10">
@@ -85,6 +80,27 @@
 <li><strong>Validation Utilities:</strong> it is the framework to easy out the life of people who deal the services/server side validation which offers a way of specifying the rules for the entity and getting the errors with severyty and other information. It is simply a model, an interface abstraction for the validatable entity, anf controller as engine. <em>Unfortunatly the error messages are only in Russian. Help to localize or develop a settings bases approach is most wanted.</em></li>
 <li><strong>Web Utils:</strong> - It has a simple helper classes and enums for the HttoClient and a wrapper around it to use JsonConvert to parse a value. It is raw assembly and realization.</li>
 </ul>
+<h2 id="installation">Installation</h2>
+<p>Below you can install from the nuget</p>
+<h3 id="netcore-10-and-upper">netcore 1.0+ and upper</h3>
+<pre><code class="lang-ps">dotnet add package odec.Framework
+</code></pre>
+<h3 id="older-versions">Older Versions.</h3>
+<p><strong>Via Package Manager Console</strong></p>
+<pre><code class="lang-cmd">Install-Package odec.Framework
+</code></pre>
+<p><strong>Via Nuget Tools</strong></p>
+<pre><code class="lang-cmd">nuget install odec.Framework
+</code></pre>
+<h3 id="from-source-code">From Source Code</h3>
+<ul>
+<li>Clone the <a href="https://github.com/original-decisions/odec-core/tree/master">repository</a></li>
+<li>Build Solution.</li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Master has stable version but you can use any branch.</p>
+</div>
 <h2 id="improvement-contribution-and-dontation">Improvement, Contribution and Dontation</h2>
 <p>All the contributions are the most welcome as well as the improvement suggestions. feel free to open an issue on <a href="https://github.com/original-decisions/odec-core/tree/master">GitHub</a></p>
 <!--If you like the library you can also buy me a bear.-->
@@ -104,9 +120,15 @@
 <h3 id="high-level-todo-list">High Level TODO List</h3>
 <div class="NOTE">
 <h5>Note</h5>
-<p>It can be made more decoupled so users can get the necessary features from the scratch and some advanced features as needed. Ex: Autofac, spring.net helpers, etc)
-[!NOTE] Commenting the code so it would generate more complete documentation from scratch
-[!NOTE] Writing more extensions for the Autofac. ( I like the Autofac library and want to make advanced configuration available from the xml or json).</p>
+<p>It can be made more decoupled so users can get the necessary features from the scratch and some advanced features as needed. Ex: Autofac, spring.net helpers, etc)</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Commenting the code so it would generate more complete documentation from scratch</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Writing more extensions for the Autofac. ( I like the Autofac library and want to make advanced configuration available from the xml or json).</p>
 </div>
 <h2 id="support-details-and-contributers-list">Support details and Contributers list</h2>
 <p>For all questions you can contact me via email: <a href="mailto:pirjob@yandex.ru">pirjob@yandex.ru</a></p>
@@ -124,13 +146,6 @@
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/original-decisions/odec-core/blob/master/doc_gen/index.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
               <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
@@ -146,8 +161,8 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            (c) Original Decisions Team
             
-            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
