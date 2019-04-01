@@ -18,6 +18,38 @@ The following module is developed to resolve common developer tasks which he may
 - **Validation Utilities:** it is the framework to easy out the life of people who deal the services/server side validation which offers a way of specifying the rules for the entity and getting the errors with severyty and other information. It is simply a model, an interface abstraction for the validatable entity, anf controller as engine. *Unfortunatly the error messages are only in Russian. Help to localize or develop a settings bases approach is most wanted.*
 - **Web Utils:** - It has a simple helper classes and enums for the HttoClient and a wrapper around it to use JsonConvert to parse a value. It is raw assembly and realization.
 
+## Installation
+
+Below you can install from the nuget 
+
+### netcore 1.0+ and upper
+
+```ps
+dotnet add package odec.Framework
+```
+
+### Older Versions.
+
+**Via Package Manager Console**
+
+```cmd
+Install-Package odec.Framework
+```
+
+**Via Nuget Tools**
+
+```cmd
+nuget install odec.Framework
+```
+
+### From Source Code
+
+- Clone the [repository](https://github.com/original-decisions/odec-core/tree/master)
+- Build Solution.
+
+> [!NOTE]
+> Master has stable version but you can use any branch.
+
 ## Improvement, Contribution and Dontation
 
 All the contributions are the most welcome as well as the improvement suggestions. feel free to open an issue on [GitHub](https://github.com/original-decisions/odec-core/tree/master)
@@ -41,8 +73,12 @@ You can contribute by:
 
 > [!NOTE]
 > It can be made more decoupled so users can get the necessary features from the scratch and some advanced features as needed. Ex: Autofac, spring.net helpers, etc)
-> [!NOTE] Commenting the code so it would generate more complete documentation from scratch
-> [!NOTE] Writing more extensions for the Autofac. ( I like the Autofac library and want to make advanced configuration available from the xml or json).
+
+> [!NOTE] 
+>Commenting the code so it would generate more complete documentation from scratch
+
+> [!NOTE] 
+> Writing more extensions for the Autofac. ( I like the Autofac library and want to make advanced configuration available from the xml or json).
 
 ## Support details and Contributers list
 

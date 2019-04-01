@@ -1,11 +1,14 @@
 # Introduction
 
-*TODO*: Introduction 
+*TODO*: Introduction
 
-## Table of contents.
+## Table of contents
 
 *TODO*: Table of contents for the articles when they are ready.
 
-## Key Features Map.
+
+## Installation Instructions
+
+## Key Features Map
 
 *TODO*: Highlight for the key features for each assembly with reference to HowTo

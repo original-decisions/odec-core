@@ -13,7 +13,8 @@
 			"disableDefaultFilter": false,
 			"properties": {
 				"TargetFramework": "netcoreapp2.1"
-			}
+			},
+			"filter": "filterConfig.yml"
 		}
 	],
 	"build": {
@@ -33,13 +34,26 @@
 		"overwrite": [
 			{
 				"files": [ "apidoc/**.md" ],
-				"exclude": [ "obj/**", "_site/**" ]
+				"exclude": [ "obj/**", "../docs/**" ]
 			}
 		],
 		"dest": "../docs",
+		"globalMetadata": {
+			"_appTitle": "Original Decesions - Core",
+			"_appLogoPath": "images/logo.png",
+			"_appFaviconPath": "images/logo.png",
+			"_enableSearch": true,
+			"_enableNewTab": true,
+			"_disableNavbar": false,
+			"_disableBreadcrumb": true,
+			"_disableToc": false,
+			"_disableAffix": false,
+			"_disableContribution": true,
+			"_appFooter": "(c) Original Decisions Team"
+		},
 		"globalMetadataFiles": [],
 		"fileMetadataFiles": [],
-		"template": [ "statictoc" ],
+		"template": [ "default", "templates/material", "templates/odec-custom" ],
 		"postProcessors": [],
 		"markdownEngineName": "markdig",
 		"noLangKeyword": false,
