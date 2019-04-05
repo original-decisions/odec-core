@@ -11,10 +11,10 @@ namespace odec.Framework.Extensions
     public static class EnumExtensions
     {
         /// <summary>
-        /// Gets Enum description attribute value 
+        /// Gets Enum description from the  <see cref="UniqueCodeAttribute"/> attribute value.
         /// </summary>
         /// <param name="enumeration">current enum</param>
-        /// <returns>description</returns>
+        /// <returns>Get enum Description specified in the <see cref="UniqueCodeAttribute"/></returns>
         public static string GetDescription(this Enum enumeration)
         {
             var type = enumeration.GetType();
@@ -26,13 +26,13 @@ namespace odec.Framework.Extensions
                 field.GetCustomAttribute<UniqueCodeAttribute>();
             if (attr != null) return attr.Description;
             var ucAttr = field.GetCustomAttribute<DescriptionAttribute>();
-            return ucAttr == null ? null : ucAttr.Description;
+            return ucAttr?.Description;
         }
         /// <summary>
         /// Gets Unique Code Attribute
         /// </summary>
         /// <param name="enumeration">current enum</param>
-        /// <returns>Unique code attribute</returns>
+        /// <returns>Gets the attribute class ( <see cref="UniqueCodeAttribute"/>) for the Enum.</returns>
         private static UniqueCodeAttribute GetCodeAttribute(this Enum enumeration)
         {
              var type = enumeration.GetType();
@@ -43,20 +43,20 @@ namespace odec.Framework.Extensions
             return attr;
         }
         /// <summary>
-        /// Gets UniqueCodeAttribute Code property for enum
+        /// Gets Code property for enum from its  <see cref="UniqueCodeAttribute"/> attribute
         /// </summary>
         /// <param name="enumeration">current enum</param>
-        /// <returns>Unique Code</returns>
+        /// <returns>Unique Code specified in the  <see cref="UniqueCodeAttribute"/></returns>
         public static string GetCode(this Enum enumeration)
         {
             var attr = enumeration.GetCodeAttribute();
-            return attr !=null?  attr.Code:null;
+            return attr?.Code;
         }
         /// <summary>
-        /// Gets Code Info wrapper for Unique Code Attribute
+        /// Gets <see cref="CodeInfo"/> wrapper from enumeration <see cref="UniqueCodeAttribute"/>
         /// </summary>
         /// <param name="enumeration">current enum</param>
-        /// <returns>Code info wrapper</returns>
+        /// <returns><see cref="CodeInfo"/> wrapper</returns>
         public static CodeInfo GetCodeInfo(this Enum enumeration)
         {
             var attr = enumeration.GetCodeAttribute();

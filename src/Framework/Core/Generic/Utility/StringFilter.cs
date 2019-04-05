@@ -3,7 +3,7 @@
 namespace odec.Framework.Generic.Utility
 {
     /// <summary>
-    /// String Filter Helper for most used cases.
+    /// String Filter Helper for the most used cases.
     /// </summary>
     public class StringFilter
     {

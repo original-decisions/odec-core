@@ -6,6 +6,9 @@ using odec.Framework.Attributes;
 
 namespace odec.Framework.Extensions
 {
+    /// <summary>
+    /// Extends 
+    /// </summary>
     public static class ObjectModelExtensions
     {
 

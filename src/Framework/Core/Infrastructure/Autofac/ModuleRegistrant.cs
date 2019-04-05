@@ -17,6 +17,9 @@ using Module = Autofac.Module;
 
 namespace odec.Framework.Infrastructure.Autofac
 {
+    /// <summary>
+    /// It is the default implementation for the Autofac <see href="https://autofac.org/"/> Module. 
+    /// </summary>
     public class ModuleRegistrant : Module
     {
         protected readonly RegistrantOptions RegistrantOptions = new RegistrantOptions();
@@ -44,9 +47,6 @@ namespace odec.Framework.Infrastructure.Autofac
                 }
 
             }
-
-
-
             Cfg = cfgBuilder.Build();
         }
         public ModuleRegistrant(IConfiguration cfg, RegistrantOptions options) : this(cfg)
@@ -71,13 +71,17 @@ namespace odec.Framework.Infrastructure.Autofac
         {
             RegistrantOptions.LookFor = lookFor ?? throw new ArgumentNullException(nameof(lookFor), nameof(lookFor) + "should be defined");
         }
+
         public ModuleRegistrant(IConfiguration cfg, string cfgSection, IList<StringFilter> lookFor) : this(cfg, lookFor)
         {
             RegistrantOptions.CfgSectionName = cfgSection;
         }
-
+        /// <summary>
+        /// Configuration part stored for the module usage.
+        /// </summary>
         protected IConfiguration Cfg { get; }
 
+        /// <inheritdoc />
         protected override void Load(ContainerBuilder builder)
         {
 
@@ -123,7 +127,11 @@ namespace odec.Framework.Infrastructure.Autofac
                     throw;
                 }
         }
-
+        /// <summary>
+        /// Local method adding the assembly by name. working with .net core and earlier versions.
+        /// </summary>
+        /// <param name="name">assembly name as string</param>
+        /// <returns>Assembly name instance.</returns>
         private AssemblyName GetAssemblyName(string name)
         {
             var targetPath = SearchUtils.LookupCommonAssemblyStores(name);

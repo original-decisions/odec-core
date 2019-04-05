@@ -9,10 +9,15 @@ using System.Linq;
 
 namespace odec.Framework.Extensions.Configuration
 {
+    /// <summary>
+    /// The class is used internally to parse the Json from a string.
+    /// </summary>
     internal class JsonConfigurationStringParser
     {
 
         private JsonConfigurationStringParser() { }
+
+
 
         private readonly IDictionary<string, string> _data = new SortedDictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         private readonly Stack<string> _context = new Stack<string>();
@@ -20,14 +25,23 @@ namespace odec.Framework.Extensions.Configuration
 
         private JsonTextReader _reader;
 
+        /// <summary>
+        /// Parses the Json configuration from a <see cref="StringReader"/>.
+        /// </summary>
+        /// <param name="input"><see cref="StringReader"/> object to be parsed</param>
+        /// <returns>Key value dictionary for the result. <see cref="IDictionary{String,String}"/></returns>
         public static IDictionary<string, string> Parse(StringReader input)
             => new JsonConfigurationStringParser().ParseStream(input);
 
+        /// <summary>
+        /// The real Method which is doing the Job. It basically takes the stream and 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         private IDictionary<string, string> ParseStream(StringReader input)
         {
             _data.Clear();
-            _reader = new JsonTextReader(input);
-            _reader.DateParseHandling = DateParseHandling.None;
+            _reader = new JsonTextReader(input) { DateParseHandling = DateParseHandling.None };
             var jsonConfig = JObject.Load(_reader);
             VisitJObject(jsonConfig);
 
@@ -80,6 +94,10 @@ namespace odec.Framework.Extensions.Configuration
             }
         }
 
+        /// <summary>
+        /// Parses the <see cref="JArray" />
+        /// </summary>
+        /// <param name="array"></param>
         private void VisitArray(JArray array)
         {
             for (int index = 0; index < array.Count; index++)
@@ -106,7 +124,7 @@ namespace odec.Framework.Extensions.Configuration
             _context.Push(context);
             _currentPath = ConfigurationPath.Combine(_context.Reverse());
         }
-
+        
         private void ExitContext()
         {
             _context.Pop();

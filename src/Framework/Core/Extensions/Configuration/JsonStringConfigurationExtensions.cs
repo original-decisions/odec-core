@@ -4,24 +4,34 @@ using System;
 
 namespace odec.Framework.Extensions.Configuration
 {
-    public static class JsonStringConfiguraitonExtensions
-    {
-        private static readonly string StringProviderKey = "SourceString";
 
+    /// <summary>
+    /// Extension class which extends the configuration builder with additional configuration source,
+    /// which is coming from simple string. For more <see cref="JsonStringSource"/>
+    /// </summary>
+    public static class JsonStringConfigurationExtensions
+    {
+        /// <summary>
+        /// Unique key for the string provider.
+        /// </summary>
+        private static readonly string StringProviderKey = "SourceString";
+        /// <summary>
+        /// Adds a JSON string configuration source to <paramref name="builder"/>.
+        /// </summary>
+        /// <param name="builder">The <see cref="IConfigurationBuilder"/> to add to.</param>
+        /// <param name="stringProvider">The default string provider instance.</param>
+        /// <returns>The <see cref="IConfigurationBuilder"/>.</returns>
         public static IConfigurationBuilder AddJsonFromString(this IConfigurationBuilder builder, string stringProvider)
         {
             return AddJsonFromString(builder, stringProvider: stringProvider, optional: false);
         }
 
         /// <summary>
-        /// Adds a JSON configuration source to <paramref name="builder"/>.
+        /// Adds a JSON string configuration source to <paramref name="builder"/>.
         /// </summary>
         /// <param name="builder">The <see cref="IConfigurationBuilder"/> to add to.</param>
-        /// <param name="provider">The <see cref="IFileProvider"/> to use to access the file.</param>
-        /// <param name="path">Path relative to the base path stored in 
-        /// <see cref="IConfigurationBuilder.Properties"/> of <paramref name="builder"/>.</param>
-        /// <param name="optional">Whether the file is optional.</param>
-        /// <param name="reloadOnChange">Whether the configuration should be reloaded if the file changes.</param>
+        /// <param name="stringProvider">The default string provider instance.</param>
+        /// <param name="optional"></param>
         /// <returns>The <see cref="IConfigurationBuilder"/>.</returns>
         public static IConfigurationBuilder AddJsonFromString(this IConfigurationBuilder builder, string stringProvider, bool optional)
         {
@@ -38,7 +48,7 @@ namespace odec.Framework.Extensions.Configuration
         }
 
         /// <summary>
-        /// Adds a JSON configuration source to <paramref name="builder"/>.
+        /// Adds a JSON string configuration source to <paramref name="builder"/>.
         /// </summary>
         /// <param name="builder">The <see cref="IConfigurationBuilder"/> to add to.</param>
         /// <param name="configureSource">Configures the source.</param>
@@ -66,10 +76,11 @@ namespace odec.Framework.Extensions.Configuration
         }
 
         /// <summary>
-        /// Gets the default <see cref="IFileProvider"/> to be used for file-based providers.
+        /// Gets the default string provider name. (actually it is a useless method i probably should delete)
         /// </summary>
         /// <param name="builder">The <see cref="IConfigurationBuilder"/>.</param>
         /// <returns>The <see cref="IConfigurationBuilder"/>.</returns>
+        [Obsolete]
         public static string GetStringProvider(this IConfigurationBuilder builder)
         {
             if (builder == null)

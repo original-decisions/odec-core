@@ -1,7 +1,7 @@
 ﻿namespace odec.Framework.Attributes
 {
     /// <summary>
-    /// Provides a code and its info.
+    /// Provides a code and its additional info.
     /// </summary>
     public class CodeInfo
     {

@@ -9,6 +9,9 @@ using System.Reflection;
 
 namespace odec.Framework.Infrastructure
 {
+    /// <summary>
+    /// Utility to search the Dlls.
+    /// </summary>
     public static class SearchUtils
     {
         private static readonly IList<string> CommonDllLookupDirectories = new List<string>();

@@ -8,12 +8,21 @@ using System.Text;
 
 namespace odec.Framework.Extensions.Configuration
 {
+    /// <summary>
+    /// Provides the logic how to parse the string as the configuration.
+    /// </summary>
     public class JsonStringProvider : ConfigurationProvider, IConfigurationProvider
     {
+        /// <summary>
+        /// Constructor accepting the string <see cref="JsonStringSource"/>
+        /// </summary>
+        /// <param name="source"></param>
         public JsonStringProvider(JsonStringSource source)
         {
             Source = source ?? throw new ArgumentNullException(nameof(source));
         }
+
+        /// <inheritdoc />
         public override void Load()
         {
             var str = Source.SourceString;
@@ -39,9 +48,9 @@ namespace odec.Framework.Extensions.Configuration
 
                         Data = JsonConfigurationStringParser.Parse(sr);
                     }
-                    catch (JsonReaderException e)
+                    catch (JsonReaderException ex)
                     {
-                        throw e;
+                        throw ex;
                         //string errorLine = string.Empty;
                         //if (sr.CanSeek)
                         //{
@@ -67,6 +76,11 @@ namespace odec.Framework.Extensions.Configuration
         /// </summary>
         public JsonStringSource Source { get; }
 
+        /// <summary>
+        /// Reads the line from a stream.
+        /// </summary>
+        /// <param name="streamReader">stream reader object. <see cref="StreamReader"/></param>
+        /// <returns>Returns the text strings.</returns>
         private static IEnumerable<string> ReadLines(StreamReader streamReader)
         {
             string line;
