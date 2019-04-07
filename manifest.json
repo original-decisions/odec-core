@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/odec.Framework.Extensions.LinqExtensions.html",
-          "hash": "9PATgbPWDSJ+q6ID7BOpIA=="
+          "hash": "Ii5n8M9sbV63J5END0QaBA=="
         }
       },
       "is_incremental": false,
@@ -1130,6 +1130,42 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/AutofacConfig-guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/AutofacConfig-guide.html",
+          "hash": "QKiLicxi7c59ekvJTDYd7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CommonLogging-guide.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CommonLogging-guide.html",
+          "hash": "QKiLicxi7c59ekvJTDYd7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/ValidationUtilities.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/ValidationUtilities.html",
+          "hash": "QKiLicxi7c59ekvJTDYd7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/enum-guide.md",
       "output": {
         ".html": {
@@ -1232,7 +1268,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 7,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
