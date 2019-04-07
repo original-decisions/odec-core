@@ -76,7 +76,7 @@
   
   <h1 id="odec_Framework_Logging_LogEventManager" data-uid="odec.Framework.Logging.LogEventManager" class="text-break">Class LogEventManager
   </h1>
-  <div class="markdown level0 summary"><p>Class for logging</p>
+  <div class="markdown level0 summary"><p>Static class wrapper for the logging using the CommonLogging Framework<a href="https://net-commons.github.io/common-logging/">https://net-commons.github.io/common-logging/</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,7 +94,7 @@
   </h3>
   <a id="odec_Framework_Logging_LogEventManager_Logger_" data-uid="odec.Framework.Logging.LogEventManager.Logger*"></a>
   <h4 id="odec_Framework_Logging_LogEventManager_Logger" data-uid="odec.Framework.Logging.LogEventManager.Logger">Logger</h4>
-  <div class="markdown level1 summary"><p>Proxy object of a logger</p>
+  <div class="markdown level1 summary"><p>Proxy object for a logger using the common logging framework logger (<a href="https://net-commons.github.io/common-logging/">https://net-commons.github.io/common-logging/</a>) wrapper <span class="xref">Common.Logging.ILog</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -120,7 +120,8 @@
   </h3>
   <a id="odec_Framework_Logging_LogEventManager_GetTypedLogger_" data-uid="odec.Framework.Logging.LogEventManager.GetTypedLogger*"></a>
   <h4 id="odec_Framework_Logging_LogEventManager_GetTypedLogger__1" data-uid="odec.Framework.Logging.LogEventManager.GetTypedLogger``1">GetTypedLogger&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the typed logger from the LogManager.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -137,7 +138,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Common.Logging.ILog</span></td>
-        <td></td>
+        <td><p>Wrapped up logger return with the proxy <span class="xref">Common.Logging.ILog</span> interface.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -152,13 +154,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Typed logger requested.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Logging_LogEventManager_Init_" data-uid="odec.Framework.Logging.LogEventManager.Init*"></a>
   <h4 id="odec_Framework_Logging_LogEventManager_Init" data-uid="odec.Framework.Logging.LogEventManager.Init">Init()</h4>
-  <div class="markdown level1 summary"><p>Logger Initialization</p>
+  <div class="markdown level1 summary"><p>Logger Initialization.
+Looks up the following files in the assembly run location to build initial configuration</p>
+<pre><code>&quot;appsettings.json&quot;</code></pre>
+<pre><code>&quot;CommonLoggingCfg.json&quot;</code></pre>
+<p>It sets the Initial logger as the &quot;Default Logger&quot; scope.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -167,7 +174,8 @@
   </div>
   <a id="odec_Framework_Logging_LogEventManager_SetDefaultLogger_" data-uid="odec.Framework.Logging.LogEventManager.SetDefaultLogger*"></a>
   <h4 id="odec_Framework_Logging_LogEventManager_SetDefaultLogger__1" data-uid="odec.Framework.Logging.LogEventManager.SetDefaultLogger``1">SetDefaultLogger&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets default typed <see cref="!:T"></see> logger.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -184,13 +192,16 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Type provided to construct default typed logger.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Logging_LogEventManager_SetUpLoggerConfig_" data-uid="odec.Framework.Logging.LogEventManager.SetUpLoggerConfig*"></a>
   <h4 id="odec_Framework_Logging_LogEventManager_SetUpLoggerConfig_Microsoft_Extensions_Configuration_IConfiguration_System_String_" data-uid="odec.Framework.Logging.LogEventManager.SetUpLoggerConfig(Microsoft.Extensions.Configuration.IConfiguration,System.String)">SetUpLoggerConfig(IConfiguration, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets up the logger configuration by the configuration <code data-dev-comment-type="paramref" class="paramref">cfg</code> and section name to look up <code data-dev-comment-type="paramref" class="paramref">sectionName</code>.
+Section  name is set to &quot;CommonLogging&quot; if not provided.&quot;</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -209,12 +220,14 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">cfg</span></td>
-        <td></td>
+        <td><p>Application configuration <span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span> to do the lookup for logging config.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">sectionName</span></td>
-        <td></td>
+        <td><p>section which we want to look up for config. If not provided the section to lookup will be set to &quot;CommonLogging&quot;</p>
+</td>
       </tr>
     </tbody>
   </table>

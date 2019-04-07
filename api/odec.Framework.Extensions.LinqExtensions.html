@@ -76,7 +76,8 @@
   
   <h1 id="odec_Framework_Extensions_LinqExtensions" data-uid="odec.Framework.Extensions.LinqExtensions" class="text-break">Class LinqExtensions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>LINQ order by extensions. They are allowing you to filter the query by the particular name of the field.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -89,11 +90,17 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class LinqExtensions</code></pre>
   </div>
+  <h5 id="odec_Framework_Extensions_LinqExtensions_examples"><strong>Examples</strong></h5>
+  <p>You want to filter by Name property:</p>
+<pre><code>var query = query.OrderBy(&quot;Name&quot;)</code></pre>
+<p>will do the job.</p>
+
   <h3 id="methods">Methods
   </h3>
   <a id="odec_Framework_Extensions_LinqExtensions_OrderBy_" data-uid="odec.Framework.Extensions.LinqExtensions.OrderBy*"></a>
   <h4 id="odec_Framework_Extensions_LinqExtensions_OrderBy__1_System_Linq_IQueryable___0__System_String_System_Object___" data-uid="odec.Framework.Extensions.LinqExtensions.OrderBy``1(System.Linq.IQueryable{``0},System.String,System.Object[])">OrderBy&lt;T&gt;(IQueryable&lt;T&gt;, String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extension method to order the query by the particular property name <code data-dev-comment-type="paramref" class="paramref">ordering</code> the order by order is ascending.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -112,17 +119,20 @@
       <tr>
         <td><span class="xref">System.Linq.IQueryable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>source query which we want to order.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ordering</span></td>
-        <td></td>
+        <td><p>field name by which you want to order.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">values</span></td>
-        <td></td>
+        <td><p>additional values to be passed in the query [!NOTE] (currently not used)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -137,7 +147,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Linq.IQueryable</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p>Ordered ascending query by the field name in <code data-dev-comment-type="paramref" class="paramref">ordering</code></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -152,13 +163,15 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Query Type</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Extensions_LinqExtensions_OrderByDescending_" data-uid="odec.Framework.Extensions.LinqExtensions.OrderByDescending*"></a>
   <h4 id="odec_Framework_Extensions_LinqExtensions_OrderByDescending__1_System_Linq_IQueryable___0__System_String_System_Object___" data-uid="odec.Framework.Extensions.LinqExtensions.OrderByDescending``1(System.Linq.IQueryable{``0},System.String,System.Object[])">OrderByDescending&lt;T&gt;(IQueryable&lt;T&gt;, String, Object[])</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Extension method to order the query by the particular property name <code data-dev-comment-type="paramref" class="paramref">ordering</code> the order by order is descending.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -177,17 +190,20 @@
       <tr>
         <td><span class="xref">System.Linq.IQueryable</span>&lt;T&gt;</td>
         <td><span class="parametername">source</span></td>
-        <td></td>
+        <td><p>source query which we want to order.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">ordering</span></td>
-        <td></td>
+        <td><p>field name by which you want to order.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span>[]</td>
         <td><span class="parametername">values</span></td>
-        <td></td>
+        <td><p>additional values to be passed in the query [!NOTE] (currently not used)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -202,7 +218,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Linq.IQueryable</span>&lt;T&gt;</td>
-        <td></td>
+        <td><p>Ordered descending query by the field name in <code data-dev-comment-type="paramref" class="paramref">ordering</code></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -217,7 +234,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Query Type</p>
+</td>
       </tr>
     </tbody>
   </table>

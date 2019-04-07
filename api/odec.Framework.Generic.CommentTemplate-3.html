@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CommentTemplate&lt;T, TEntityId, TEntity&gt;
+    <title>Class CommentTemplate&lt;TKey, TEntityId, TEntity&gt;
    | Original Decesions - Core </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CommentTemplate&lt;T, TEntityId, TEntity&gt;
+    <meta name="title" content="Class CommentTemplate&lt;TKey, TEntityId, TEntity&gt;
    | Original Decesions - Core ">
     <meta name="generator" content="docfx 2.41.0.0">
     
@@ -74,20 +74,24 @@
             <article class="content wrap" id="_content" data-uid="odec.Framework.Generic.CommentTemplate`3">
   
   
-  <h1 id="odec_Framework_Generic_CommentTemplate_3" data-uid="odec.Framework.Generic.CommentTemplate`3" class="text-break">Class CommentTemplate&lt;T, TEntityId, TEntity&gt;
+  <h1 id="odec_Framework_Generic_CommentTemplate_3" data-uid="odec.Framework.Generic.CommentTemplate`3" class="text-break">Class CommentTemplate&lt;TKey, TEntityId, TEntity&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The generic comment template for the entity.
+It allows you to specify the type for key of the comment <see cref="!:TKey"></see>
+and the type for the key of the linked entity <see cref="!:TEntityId"></see>
+and the type entity type itself <see cref="!:TEntity"></see></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CommentTemplate&lt;T, TEntityId, TEntity&gt;</span></div>
+    <div class="level1"><span class="xref">CommentTemplate&lt;TKey, TEntityId, TEntity&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="odec.Framework.Generic.html">odec.Framework.Generic</a></h6>
   <h6><strong>Assembly</strong>: odec.Framework.dll</h6>
   <h5 id="odec_Framework_Generic_CommentTemplate_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CommentTemplate&lt;T, TEntityId, TEntity&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class CommentTemplate&lt;TKey, TEntityId, TEntity&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -99,16 +103,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>Type for the comment itself</p>
+</td>
       </tr>
       <tr>
         <td><span class="parametername">TEntityId</span></td>
-        <td></td>
+        <td><p>Entity key type</p>
+</td>
       </tr>
       <tr>
         <td><span class="parametername">TEntity</span></td>
-        <td></td>
+        <td><p>Entity Type</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -116,7 +123,8 @@
   </h3>
   <a id="odec_Framework_Generic_CommentTemplate_3_Comment_" data-uid="odec.Framework.Generic.CommentTemplate`3.Comment*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_Comment" data-uid="odec.Framework.Generic.CommentTemplate`3.Comment">Comment</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Comment body itself.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -140,7 +148,8 @@ public string Comment { get; set; }</code></pre>
   </table>
   <a id="odec_Framework_Generic_CommentTemplate_3_DateCreated_" data-uid="odec.Framework.Generic.CommentTemplate`3.DateCreated*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_DateCreated" data-uid="odec.Framework.Generic.CommentTemplate`3.DateCreated">DateCreated</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Date when the comment was created.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -164,13 +173,14 @@ public DateTime DateCreated { get; set; }</code></pre>
   </table>
   <a id="odec_Framework_Generic_CommentTemplate_3_Id_" data-uid="odec.Framework.Generic.CommentTemplate`3.Id*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_Id" data-uid="odec.Framework.Generic.CommentTemplate`3.Id">Id</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Comment key. If used in the EF it will also have the Identity property if used for the model creation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Key]
 [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-public T Id { get; set; }</code></pre>
+public TKey Id { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,14 +192,15 @@ public T Id { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><span class="xref">TKey</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Generic_CommentTemplate_3_Target_" data-uid="odec.Framework.Generic.CommentTemplate`3.Target*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_Target" data-uid="odec.Framework.Generic.CommentTemplate`3.Target">Target</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Target entity.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -212,7 +223,8 @@ public T Id { get; set; }</code></pre>
   </table>
   <a id="odec_Framework_Generic_CommentTemplate_3_TargetId_" data-uid="odec.Framework.Generic.CommentTemplate`3.TargetId*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_TargetId" data-uid="odec.Framework.Generic.CommentTemplate`3.TargetId">TargetId</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Entity key to which the comment relates</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -235,11 +247,12 @@ public T Id { get; set; }</code></pre>
   </table>
   <a id="odec_Framework_Generic_CommentTemplate_3_UserCommented_" data-uid="odec.Framework.Generic.CommentTemplate`3.UserCommented*"></a>
   <h4 id="odec_Framework_Generic_CommentTemplate_3_UserCommented" data-uid="odec.Framework.Generic.CommentTemplate`3.UserCommented">UserCommented</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The User who left the comment. By default it is Anon.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DisplayFormat(NullDisplayText = &quot;&#1040;&#1085;&#1086;&#1085;&#1080;&#1084;&#1091;&#1089;&quot;)]
+    <pre><code class="lang-csharp hljs">[DisplayFormat(NullDisplayText = &quot;Anon&quot;)]
 public string UserCommented { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>

@@ -76,7 +76,8 @@
   
   <h1 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions" class="text-break">Class RegistrantOptions
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Registrant options object. It is basically used for the autofac config registration.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -93,7 +94,32 @@
   </h3>
   <a id="odec_Framework_Infrastructure_Autofac_RegistrantOptions__ctor_" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.#ctor*"></a>
   <h4 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions__ctor" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.#ctor">RegistrantOptions()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Default constructor inits the defaults:</p>
+<pre><code>LookFor = new List&lt;StringFilter>
+{
+new StringFilter(&quot;Repository&quot;)
+{
+CompareOperation = StringCompareOperation.Postfix
+},
+new StringFilter(&quot;Export&quot;)
+{
+CompareOperation = StringCompareOperation.Prefix
+},
+new StringFilter(&quot;Import&quot;)
+{
+CompareOperation = StringCompareOperation.Prefix
+},
+new StringFilter(&quot;Exchange&quot;)
+{
+CompareOperation = StringCompareOperation.Prefix
+}
+};
+LookupFileNames = new List&lt;string>
+{
+&quot;lookupAssemblies.json&quot;,
+&quot;lookupAssemblies.xml&quot;,
+};</code></pre>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -103,7 +129,8 @@
   </h3>
   <a id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_CfgLookupTypes_" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.CfgLookupTypes*"></a>
   <h4 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_CfgLookupTypes" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.CfgLookupTypes">CfgLookupTypes</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Which Configuration types we are looking for. (not used currently)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -126,7 +153,8 @@
   </table>
   <a id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_CfgSectionName_" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.CfgSectionName*"></a>
   <h4 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_CfgSectionName" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.CfgSectionName">CfgSectionName</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Specifies config section name where to search.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -149,7 +177,8 @@
   </table>
   <a id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_LookFor_" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.LookFor*"></a>
   <h4 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_LookFor" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.LookFor">LookFor</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Which values we are looking for. It is set as the <a class="xref" href="odec.Framework.Generic.Utility.StringFilter.html">StringFilter</a> list.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -172,7 +201,8 @@
   </table>
   <a id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_LookupFileNames_" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.LookupFileNames*"></a>
   <h4 id="odec_Framework_Infrastructure_Autofac_RegistrantOptions_LookupFileNames" data-uid="odec.Framework.Infrastructure.Autofac.RegistrantOptions.LookupFileNames">LookupFileNames</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Which files should we lookup for the assembly names to plug in the runtime.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

@@ -76,7 +76,13 @@
   
   <h1 id="odec_Framework_Infrastructure_SearchUtils" data-uid="odec.Framework.Infrastructure.SearchUtils" class="text-break">Class SearchUtils
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Utility to search the Dlls in the common storage places such as Nuget cache, working dir current dir etc..
+Current default search dirs are:</p>
+<pre><code>Directory.GetCurrentDirectory()</code></pre>
+<pre><code>Assembly.GetEntryAssembly().Location</code></pre>
+<pre><code>Directory.GetCurrentDirectory()+&quot;\\Libs&quot;</code></pre>
+<pre><code>Directory.GetCurrentDirectory()+&quot;\\Libs&quot;</code></pre>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -113,7 +119,7 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">names</span></td>
-        <td><p>checks the filename</p>
+        <td><p>File names as <span class="xref">System.String</span> collection to be checked in the common dll stores.</p>
 </td>
       </tr>
     </tbody>
@@ -129,13 +135,22 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Gives the file full name with the path.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Infrastructure_SearchUtils_LookupCommonAssemblyStores_" data-uid="odec.Framework.Infrastructure.SearchUtils.LookupCommonAssemblyStores*"></a>
   <h4 id="odec_Framework_Infrastructure_SearchUtils_LookupCommonAssemblyStores_System_String_System_Collections_Generic_IList_System_String__" data-uid="odec.Framework.Infrastructure.SearchUtils.LookupCommonAssemblyStores(System.String,System.Collections.Generic.IList{System.String})">LookupCommonAssemblyStores(String, IList&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Looks up the dll file by the <code data-dev-comment-type="paramref" class="paramref">name</code> provided in the common dll locations
+(see below for more info) and adding the custom lookup locations to be checked.
+<example><p>
+<pre><code>Directory.GetCurrentDirectory()</code></pre>
+<pre><code>Assembly.GetEntryAssembly().Location</code></pre>
+<pre><code>Directory.GetCurrentDirectory()+&quot;\\Libs&quot;</code></pre>
+<pre><code>Directory.GetCurrentDirectory()+&quot;\\Libs&quot;</code></pre>
+</example>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

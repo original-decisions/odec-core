@@ -76,7 +76,8 @@
   
   <h1 id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper" class="text-break">Class EFCfgHelper
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Helps to build the configuration for the Entity Framework from config.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -93,7 +94,8 @@
   </h3>
   <a id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_GetEFOptions_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.GetEFOptions*"></a>
   <h4 id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_GetEFOptions_Microsoft_Extensions_Configuration_IConfiguration_System_String_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.GetEFOptions(Microsoft.Extensions.Configuration.IConfiguration,System.String)">GetEFOptions(IConfiguration, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets Entity framework options from configuration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -112,12 +114,14 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">cfg</span></td>
-        <td></td>
+        <td><p>Configuration abstraction <span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span> to map from</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">section</span></td>
-        <td></td>
+        <td><p>section to search for the options. &quot;EfConfig&quot; by default</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -132,18 +136,19 @@
     <tbody>
       <tr>
         <td><a class="xref" href="odec.Framework.Infrastructure.ORM.EF.EFOptions.html">EFOptions</a></td>
-        <td></td>
+        <td><p>returns the bound object of options <a class="xref" href="odec.Framework.Infrastructure.ORM.EF.EFOptions.html">EFOptions</a></p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions*"></a>
-  <h4 id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions__1_odec_Framework_Infrastructure_ORM_EF_EFOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions``1(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">SetContextOptions&lt;TDbContext&gt;(EFOptions, DbContextOptionsBuilder)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions_odec_Framework_Infrastructure_ORM_EF_EFOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">SetContextOptions(EFOptions, DbContextOptionsBuilder)</h4>
+  <div class="markdown level1 summary"><p>Sets the Migration assembly and the provider to use for the EF.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetContextOptions&lt;TDbContext&gt;(EFOptions efOptions, DbContextOptionsBuilder options)
-    where TDbContext : DbContext</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetContextOptions(EFOptions efOptions, DbContextOptionsBuilder optionsBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,33 +163,21 @@
       <tr>
         <td><a class="xref" href="odec.Framework.Infrastructure.ORM.EF.EFOptions.html">EFOptions</a></td>
         <td><span class="parametername">efOptions</span></td>
-        <td></td>
+        <td><p>options to be set <a class="xref" href="odec.Framework.Infrastructure.ORM.EF.EFOptions.html">EFOptions</a></p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Microsoft.EntityFrameworkCore.DbContextOptionsBuilder</span></td>
-        <td><span class="parametername">options</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TDbContext</span></td>
-        <td></td>
+        <td><span class="parametername">optionsBuilder</span></td>
+        <td><p>the builder object for options</p>
+</td>
       </tr>
     </tbody>
   </table>
   <a id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetupEf_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetupEf*"></a>
   <h4 id="odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetupEf__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_System_String_" data-uid="odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetupEf``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String)">SetupEf&lt;TDbContext&gt;(IServiceCollection, IConfiguration, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets Entity framework context for the service collection <code data-dev-comment-type="paramref" class="paramref">services</code> inside the app with configuration <code data-dev-comment-type="paramref" class="paramref">cfg</code> using particular section <code data-dev-comment-type="paramref" class="paramref">section</code> which is &quot;EfConfig&quot; by default</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -204,17 +197,20 @@
       <tr>
         <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
         <td><span class="parametername">services</span></td>
-        <td></td>
+        <td><p><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span> for the application</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">cfg</span></td>
-        <td></td>
+        <td><p>Application <span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span> from where to read the Entity Framework related configuration.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">section</span></td>
-        <td></td>
+        <td><p>section to search for the options. &quot;EfConfig&quot; by default</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -229,7 +225,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TDbContext</span></td>
-        <td></td>
+        <td><p>Type for the database context <span class="xref">Microsoft.EntityFrameworkCore.DbContext</span> to be configured.</p>
+</td>
       </tr>
     </tbody>
   </table>

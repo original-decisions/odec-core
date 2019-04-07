@@ -132,12 +132,12 @@ references:
   commentId: T:odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType
   fullName: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType
   nameWithType: ClientAssertionType
-- uid: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.GwtBearer
-  name: GwtBearer
-  href: api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.html#odec_Framework_CP_Web_Infrastructure_Helpers_Enumerations_ClientAssertionType_GwtBearer
-  commentId: F:odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.GwtBearer
-  fullName: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.GwtBearer
-  nameWithType: ClientAssertionType.GwtBearer
+- uid: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.JwtBearer
+  name: JwtBearer
+  href: api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.html#odec_Framework_CP_Web_Infrastructure_Helpers_Enumerations_ClientAssertionType_JwtBearer
+  commentId: F:odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.JwtBearer
+  fullName: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ClientAssertionType.JwtBearer
+  nameWithType: ClientAssertionType.JwtBearer
 - uid: odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ContentType
   name: ContentType
   href: api/odec.Framework.CP.Web.Infrastructure.Helpers.Enumerations.ContentType.html
@@ -277,63 +277,63 @@ references:
   commentId: N:odec.Framework.Extensions.Configuration
   fullName: odec.Framework.Extensions.Configuration
   nameWithType: odec.Framework.Extensions.Configuration
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions
-  name: JsonStringConfiguraitonExtensions
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html
-  commentId: T:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions
-  nameWithType: JsonStringConfiguraitonExtensions
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,odec.Framework.Extensions.Configuration.JsonStringSource)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions
+  name: JsonStringConfigurationExtensions
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html
+  commentId: T:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions
+  nameWithType: JsonStringConfigurationExtensions
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,odec.Framework.Extensions.Configuration.JsonStringSource)
   name: AddJsonFromString(IConfigurationBuilder, JsonStringSource)
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_odec_Framework_Extensions_Configuration_JsonStringSource_
-  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,odec.Framework.Extensions.Configuration.JsonStringSource)
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, odec.Framework.Extensions.Configuration.JsonStringSource)
-  nameWithType: JsonStringConfiguraitonExtensions.AddJsonFromString(IConfigurationBuilder, JsonStringSource)
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_odec_Framework_Extensions_Configuration_JsonStringSource_
+  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,odec.Framework.Extensions.Configuration.JsonStringSource)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, odec.Framework.Extensions.Configuration.JsonStringSource)
+  nameWithType: JsonStringConfigurationExtensions.AddJsonFromString(IConfigurationBuilder, JsonStringSource)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
   name: AddJsonFromString(IConfigurationBuilder, String)
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_
-  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
-  nameWithType: JsonStringConfiguraitonExtensions.AddJsonFromString(IConfigurationBuilder, String)
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_
+  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
+  nameWithType: JsonStringConfigurationExtensions.AddJsonFromString(IConfigurationBuilder, String)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
   name: AddJsonFromString(IConfigurationBuilder, String, Boolean)
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_System_Boolean_
-  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean)
-  nameWithType: JsonStringConfiguraitonExtensions.AddJsonFromString(IConfigurationBuilder, String, Boolean)
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString*
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_AddJsonFromString_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_System_Boolean_
+  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String,System.Boolean)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String, System.Boolean)
+  nameWithType: JsonStringConfigurationExtensions.AddJsonFromString(IConfigurationBuilder, String, Boolean)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString*
   name: AddJsonFromString
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_AddJsonFromString_
-  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_AddJsonFromString_
+  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString
   isSpec: "True"
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.AddJsonFromString
-  nameWithType: JsonStringConfiguraitonExtensions.AddJsonFromString
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.AddJsonFromString
+  nameWithType: JsonStringConfigurationExtensions.AddJsonFromString
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
   name: GetStringProvider(IConfigurationBuilder)
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_GetStringProvider_Microsoft_Extensions_Configuration_IConfigurationBuilder_
-  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
-  nameWithType: JsonStringConfiguraitonExtensions.GetStringProvider(IConfigurationBuilder)
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider*
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_GetStringProvider_Microsoft_Extensions_Configuration_IConfigurationBuilder_
+  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder)
+  nameWithType: JsonStringConfigurationExtensions.GetStringProvider(IConfigurationBuilder)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider*
   name: GetStringProvider
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_GetStringProvider_
-  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_GetStringProvider_
+  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider
   isSpec: "True"
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.GetStringProvider
-  nameWithType: JsonStringConfiguraitonExtensions.GetStringProvider
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.GetStringProvider
+  nameWithType: JsonStringConfigurationExtensions.GetStringProvider
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
   name: SetStringProvider(IConfigurationBuilder, String)
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_SetStringProvider_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_
-  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
-  nameWithType: JsonStringConfiguraitonExtensions.SetStringProvider(IConfigurationBuilder, String)
-- uid: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider*
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_SetStringProvider_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String_
+  commentId: M:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String)
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.String)
+  nameWithType: JsonStringConfigurationExtensions.SetStringProvider(IConfigurationBuilder, String)
+- uid: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider*
   name: SetStringProvider
-  href: api/odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfiguraitonExtensions_SetStringProvider_
-  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider
+  href: api/odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.html#odec_Framework_Extensions_Configuration_JsonStringConfigurationExtensions_SetStringProvider_
+  commentId: Overload:odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider
   isSpec: "True"
-  fullName: odec.Framework.Extensions.Configuration.JsonStringConfiguraitonExtensions.SetStringProvider
-  nameWithType: JsonStringConfiguraitonExtensions.SetStringProvider
+  fullName: odec.Framework.Extensions.Configuration.JsonStringConfigurationExtensions.SetStringProvider
+  nameWithType: JsonStringConfigurationExtensions.SetStringProvider
 - uid: odec.Framework.Extensions.Configuration.JsonStringProvider
   name: JsonStringProvider
   href: api/odec.Framework.Extensions.Configuration.JsonStringProvider.html
@@ -781,116 +781,116 @@ references:
   fullName: odec.Framework.Generic
   nameWithType: odec.Framework.Generic
 - uid: odec.Framework.Generic.CommentTemplate`3
-  name: CommentTemplate<T, TEntityId, TEntity>
+  name: CommentTemplate<TKey, TEntityId, TEntity>
   href: api/odec.Framework.Generic.CommentTemplate-3.html
   commentId: T:odec.Framework.Generic.CommentTemplate`3
-  name.vb: CommentTemplate(Of T, TEntityId, TEntity)
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity)
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity)
+  name.vb: CommentTemplate(Of TKey, TEntityId, TEntity)
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity)
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity)
 - uid: odec.Framework.Generic.CommentTemplate`3.Comment
   name: Comment
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Comment
   commentId: P:odec.Framework.Generic.CommentTemplate`3.Comment
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Comment
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Comment
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Comment
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Comment
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Comment
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Comment
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Comment
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Comment
 - uid: odec.Framework.Generic.CommentTemplate`3.Comment*
   name: Comment
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Comment_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.Comment
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Comment
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Comment
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Comment
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Comment
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Comment
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Comment
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Comment
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Comment
 - uid: odec.Framework.Generic.CommentTemplate`3.DateCreated
   name: DateCreated
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_DateCreated
   commentId: P:odec.Framework.Generic.CommentTemplate`3.DateCreated
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.DateCreated
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).DateCreated
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.DateCreated
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).DateCreated
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.DateCreated
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).DateCreated
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.DateCreated
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).DateCreated
 - uid: odec.Framework.Generic.CommentTemplate`3.DateCreated*
   name: DateCreated
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_DateCreated_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.DateCreated
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.DateCreated
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).DateCreated
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.DateCreated
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).DateCreated
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.DateCreated
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).DateCreated
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.DateCreated
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).DateCreated
 - uid: odec.Framework.Generic.CommentTemplate`3.Id
   name: Id
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Id
   commentId: P:odec.Framework.Generic.CommentTemplate`3.Id
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Id
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Id
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Id
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Id
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Id
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Id
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Id
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Id
 - uid: odec.Framework.Generic.CommentTemplate`3.Id*
   name: Id
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Id_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.Id
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Id
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Id
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Id
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Id
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Id
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Id
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Id
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Id
 - uid: odec.Framework.Generic.CommentTemplate`3.Target
   name: Target
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Target
   commentId: P:odec.Framework.Generic.CommentTemplate`3.Target
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Target
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Target
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Target
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Target
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Target
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Target
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Target
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Target
 - uid: odec.Framework.Generic.CommentTemplate`3.Target*
   name: Target
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_Target_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.Target
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.Target
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).Target
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.Target
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).Target
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.Target
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).Target
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.Target
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).Target
 - uid: odec.Framework.Generic.CommentTemplate`3.TargetId
   name: TargetId
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_TargetId
   commentId: P:odec.Framework.Generic.CommentTemplate`3.TargetId
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.TargetId
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).TargetId
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.TargetId
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).TargetId
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.TargetId
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).TargetId
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.TargetId
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).TargetId
 - uid: odec.Framework.Generic.CommentTemplate`3.TargetId*
   name: TargetId
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_TargetId_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.TargetId
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.TargetId
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).TargetId
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.TargetId
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).TargetId
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.TargetId
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).TargetId
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.TargetId
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).TargetId
 - uid: odec.Framework.Generic.CommentTemplate`3.UserCommented
   name: UserCommented
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_UserCommented
   commentId: P:odec.Framework.Generic.CommentTemplate`3.UserCommented
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.UserCommented
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).UserCommented
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.UserCommented
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).UserCommented
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.UserCommented
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).UserCommented
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.UserCommented
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).UserCommented
 - uid: odec.Framework.Generic.CommentTemplate`3.UserCommented*
   name: UserCommented
   href: api/odec.Framework.Generic.CommentTemplate-3.html#odec_Framework_Generic_CommentTemplate_3_UserCommented_
   commentId: Overload:odec.Framework.Generic.CommentTemplate`3.UserCommented
   isSpec: "True"
-  fullName: odec.Framework.Generic.CommentTemplate<T, TEntityId, TEntity>.UserCommented
-  fullName.vb: odec.Framework.Generic.CommentTemplate(Of T, TEntityId, TEntity).UserCommented
-  nameWithType: CommentTemplate<T, TEntityId, TEntity>.UserCommented
-  nameWithType.vb: CommentTemplate(Of T, TEntityId, TEntity).UserCommented
+  fullName: odec.Framework.Generic.CommentTemplate<TKey, TEntityId, TEntity>.UserCommented
+  fullName.vb: odec.Framework.Generic.CommentTemplate(Of TKey, TEntityId, TEntity).UserCommented
+  nameWithType: CommentTemplate<TKey, TEntityId, TEntity>.UserCommented
+  nameWithType.vb: CommentTemplate(Of TKey, TEntityId, TEntity).UserCommented
 - uid: odec.Framework.Generic.FilterBase
   name: FilterBase
   href: api/odec.Framework.Generic.FilterBase.html
@@ -2849,6 +2849,12 @@ references:
   commentId: F:odec.Framework.Infrastructure.ORM.EF.ConnectionType.MySQL
   fullName: odec.Framework.Infrastructure.ORM.EF.ConnectionType.MySQL
   nameWithType: ConnectionType.MySQL
+- uid: odec.Framework.Infrastructure.ORM.EF.ConnectionType.Oracle
+  name: Oracle
+  href: api/odec.Framework.Infrastructure.ORM.EF.ConnectionType.html#odec_Framework_Infrastructure_ORM_EF_ConnectionType_Oracle
+  commentId: F:odec.Framework.Infrastructure.ORM.EF.ConnectionType.Oracle
+  fullName: odec.Framework.Infrastructure.ORM.EF.ConnectionType.Oracle
+  nameWithType: ConnectionType.Oracle
 - uid: odec.Framework.Infrastructure.ORM.EF.ConnectionType.PostgresSQL
   name: PostgresSQL
   href: api/odec.Framework.Infrastructure.ORM.EF.ConnectionType.html#odec_Framework_Infrastructure_ORM_EF_ConnectionType_PostgresSQL
@@ -2874,6 +2880,12 @@ references:
   isSpec: "True"
   fullName: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.GetEFOptions
   nameWithType: EFCfgHelper.GetEFOptions
+- uid: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  name: SetContextOptions(EFOptions, DbContextOptionsBuilder)
+  href: api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html#odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions_odec_Framework_Infrastructure_ORM_EF_EFOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions(odec.Framework.Infrastructure.ORM.EF.EFOptions, Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  nameWithType: EFCfgHelper.SetContextOptions(EFOptions, DbContextOptionsBuilder)
 - uid: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions*
   name: SetContextOptions
   href: api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html#odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions_
@@ -2881,15 +2893,6 @@ references:
   isSpec: "True"
   fullName: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions
   nameWithType: EFCfgHelper.SetContextOptions
-- uid: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions``1(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
-  name: SetContextOptions<TDbContext>(EFOptions, DbContextOptionsBuilder)
-  href: api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html#odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetContextOptions__1_odec_Framework_Infrastructure_ORM_EF_EFOptions_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
-  commentId: M:odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions``1(odec.Framework.Infrastructure.ORM.EF.EFOptions,Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
-  name.vb: SetContextOptions(Of TDbContext)(EFOptions, DbContextOptionsBuilder)
-  fullName: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions<TDbContext>(odec.Framework.Infrastructure.ORM.EF.EFOptions, Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
-  fullName.vb: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetContextOptions(Of TDbContext)(odec.Framework.Infrastructure.ORM.EF.EFOptions, Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
-  nameWithType: EFCfgHelper.SetContextOptions<TDbContext>(EFOptions, DbContextOptionsBuilder)
-  nameWithType.vb: EFCfgHelper.SetContextOptions(Of TDbContext)(EFOptions, DbContextOptionsBuilder)
 - uid: odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.SetupEf*
   name: SetupEf
   href: api/odec.Framework.Infrastructure.ORM.EF.EFCfgHelper.html#odec_Framework_Infrastructure_ORM_EF_EFCfgHelper_SetupEf_
