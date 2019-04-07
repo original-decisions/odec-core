@@ -42,7 +42,9 @@ namespace odec.Framework.Extensions
         /// <typeparam name="T">Query Type</typeparam>
         /// <param name="source">source query which we want to order.</param>
         /// <param name="ordering">field name by which you want to order.</param>
-        /// <param name="values">additional values to be passed in the query [!NOTE] (currently not used)</param>
+        /// <param name="values">additional values to be passed in the query
+        /// > [!NOTE]
+        /// > (currently not used)</param>
         /// <returns>Ordered descending query by the field name in <paramref name="ordering"/> </returns>
         /// <returns></returns>
         public static IQueryable<T> OrderByDescending<T>(this IQueryable<T> source, string ordering, params object[] values)
